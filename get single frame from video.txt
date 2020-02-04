@@ -1,0 +1,4 @@
+ffmpeg -ss 124 -i input.mp4  -frames:v 1 output.bmp
+
+-ss [seconds into the video]
+-frame:v [number of frames to be exported]
