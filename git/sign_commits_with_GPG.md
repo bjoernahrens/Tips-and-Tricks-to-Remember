@@ -1,32 +1,21 @@
+# Signing Commits / Tags in Git with GPG
+
 Source: https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification
 
-### Generating GPG key
-- install gpg and/or gpg-suite
-	
-- generate a new key:
-	gpg --full-generate-key
-	
-	Kind:	default: RSA and RSA
-	Size:	4096
-	Time: 	0 means the key doesn't expire
-	User ID information
-	Secure passphrase (This will actually be needed every time the key is used, but can be stored in the macOS Keychain)
-	
-- Use generated key:
-	gpg --list-secret-keys --keyid-format LONG
-	
-	gpg --armor --export 3AA5C34371567BD2 (<- substutute with the GPG key ID from the list above, after 4096R/...)
-	This prints the GPG key ID, in ASCII armor format
-	Copy everything (incl. -----BEGIN PGP PUBLIC KEY BLOCK----- and -----END PGP PUBLIC KEY BLOCK----)
+### Generate new/Use existing GPG key
+- See Basic GPG guide
 
-### Add key to Github
+### Add key to Github / Bitbucket
 - Add to Github under Settings > SSH & GPG keys
 
-### Telling Git about your signing key
+### Tell Local Git about your GPG key
 
 - Get GPG key id:
 	gpg --list-secret-keys --keyid-format LONG
-	git config --global user.signingkey 3AA5C34371567BD2 (<- substutute with the GPG key ID from the list above, after 4096R/...)
+	
+- Set User Signing Key
+	git config --global user.signingkey <keyid> (<- substutute with the GPG key ID from the list above, after 4096R/...)
+	For local git configuartion, set signingkey = <keyid> under [user] in the config file
 	
 - Manual sign:
 	git commit -S -m "message"
@@ -34,3 +23,7 @@ Source: https://help.github.com/en/github/authenticating-to-github/managing-comm
 	add to git config:
 		[commit]
 			gpgsign = true
+
+### Verify signed commits
+- git verfiy-commit <commit-hash>
+	However, the public key has to be imported in order for gpg to be able to verify the commit
