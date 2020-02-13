@@ -1,7 +1,7 @@
 ## Markdown to HTML conversion
 
 ```
-pandoc --metadata title="Markdown to HTML" -s -o output.html markdown_to_html.md
+pandoc --metadata title="Markdown to HTML" -s -o markdown_output.html markdown_to_html.md
 ```  
 
 - to merge multiple markdown files into a single html, just add more after the first one in a varargs style
