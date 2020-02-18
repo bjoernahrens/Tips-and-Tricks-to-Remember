@@ -1,7 +1,7 @@
 # Units
 
-- Riesengroßes Umrechnungstool  
-- über https://www.gnu.org/software/units/  
+- Huge tool for unit conversion  
+- Download from https://www.gnu.org/software/units/  
 - How to install/upgrade -> see INSTALL file  
 in short:  
 ```cd``` into directory  
