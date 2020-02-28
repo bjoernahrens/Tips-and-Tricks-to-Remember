@@ -1,5 +1,5 @@
-# Auto-download Source Code and Javadoc
+# download Source Code and Javadoc
 
-```
+```shell
 mvn dependency:sources dependency:resolve -Dclassifier=javadoc
 ```

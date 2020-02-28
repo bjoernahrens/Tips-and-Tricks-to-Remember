@@ -1,6 +1,6 @@
 ## Markdown to HTML conversion
 
-```
+```shell
 pandoc --metadata title="Markdown to HTML" -s -o markdown_output.html markdown_to_html.md
 ```  
 

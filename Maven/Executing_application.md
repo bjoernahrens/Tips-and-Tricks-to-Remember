@@ -3,7 +3,7 @@
 1. Add the following to the ```pom.xml```:  
 	(Add the correct Class containing the main() method to the mainClass tag)   
 	
-	```
+	```XML
 	<build>
 		<plugins>
 			<plugin>
@@ -18,4 +18,8 @@
 	</build>
 	```
 
-2. Use ```mvn exec:java``` to execute the application
+2. If the application was packaged/installed using a profile, the profile has to be used as well for execution. Otherwise it will use the default profile. Use the execution command:    
+    
+    ```shell
+    mvn exec:java -P profileName
+    ```
