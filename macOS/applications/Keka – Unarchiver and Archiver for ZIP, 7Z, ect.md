@@ -28,3 +28,8 @@ Extraction formats supported:
 Keka is available for [free at keka.io](https://www.keka.io/en/).
 
 There is also a version of [Keka on the Mac App Store](https://apps.apple.com/app/keka/id470158793). To support the developer, this version costs 3.49€ / 2.99$.
+
+A simple, quick and quite clean unarchiver and archiver app.  
+Keka also supports encrypting and decrypting archives in a nice user interface.
+[keka.io](https://www.keka.io/en/)
+>>>>>>> 534dff2 (updates, added iOS, and iOS apps)
