@@ -1,4 +1,4 @@
-## [Swift Library: Time)](https://github.com/davedelong/time/)
+## [Swift Library: Time](https://github.com/davedelong/time/)
 > `Time` is a Swift package that makes dealing with calendar values a natural and straight-forward process.
 
 > Working with calendars can be extremely complicated and error-prone. `Time` solves these problems by clarifying concepts and restricting improper usage through type-safe APIs.
