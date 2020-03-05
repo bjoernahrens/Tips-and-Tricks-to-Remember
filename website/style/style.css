@@ -1,0 +1,450 @@
+:root {
+    --dark-mode-gray:#21252E;
+    --dark-blue: #003691;
+    --light-blue: #3D84FF;
+    --dark-red: rgb(126, 21, 44);
+    --soft-red: #FF0061;
+    --dark-hamburger-bar-gray: #232323;
+    --light-hamburger-bar-gray: #bbbbbb;
+
+    --hr-light-gray: rgb(237, 237, 237);
+    --transparent: rgba(0, 0, 0, 0);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+}
+
+html {
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17pt;
+}
+
+#page-title-container {
+    width: 100%;
+}
+
+#page-title {
+    text-align: center;
+	letter-spacing: .2em;
+    font-weight: bold;
+}
+
+.jb-mono-font {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: bold;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.content-welcome {
+    font-size: 2rem;
+	overflow: auto;
+}
+
+.welcome-image img {
+    max-width: 250px;
+    margin: 0 15px 30px 30px;
+    float: right;
+	overflow: hidden;
+	top: 0;
+}
+
+.subtitle {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.disclaimer-header {
+    margin-bottom: 3rem;
+}
+
+.undecorated-link {
+    text-decoration: none;
+}
+
+.imprint-disclaimer {
+    margin-bottom: 2rem;
+}
+
+.disclaimer {
+    font-size: 1.4rem;
+}
+
+#disclaimer-site-wrapper {
+    margin-left: 2em;
+    margin-right: 2em; 
+    margin-bottom: 2em;  
+}
+
+.disclaimer-wrapper {
+    margin-top: 3rem;
+}
+
+.disclaimer-hr {
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #003691;
+    margin-top: 3rem;
+}
+
+.gradient-color-behind {
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, rgb(119, 125, 255) 0px, rgb(241, 84, 255) 200px, rgb(240, 53, 124) 400px), linear-gradient(to right, rgb(119, 125, 255) 0px, rgb(73, 124, 226) 200px, rgb(55, 189, 222) 400px);
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+    background-size: 50% 100%, 50% 100%;
+}
+
+.gradient-color-behind .subtitle-color {
+    color: var(--transparent);
+    font-feature-settings: "kern";
+}
+
+.gradient-color-behind .timeline-content {
+    color: var(--transparent);
+    font-size: 2rem;
+    line-height: 1.5em;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    font-feature-settings: "kern";
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border-radius: 28px;
+    border: 2px solid var(--dark-blue);
+    display: inline-block;
+    width: 80%;
+    font-size: 1rem;
+    padding: 14px 40px;
+    margin: 8px 0;
+}
+
+.timeline-list div {
+    padding-bottom: 0.5em;
+
+}
+
+hr {
+    border-top: 1px solid var(--hr-light-gray);
+}
+
+#past-projects {
+    width: 100%;
+}
+
+.project-list {
+    display: inline-block;
+    text-align: center;
+}
+
+.project-tile {
+    height: 400px;
+    max-width: 80%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 40px 40px 0 0;
+
+    border-radius: 28px;
+    border: 2px solid;
+
+    display: inline-block;
+
+    text-decoration: none;
+    top: 0;
+    vertical-align: top;
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-tile h3 {
+    font-size: 1.5rem;
+}
+
+.project-tile .info {
+    padding: 20px 0 0 0;
+    font-size: 1rem;
+}
+
+
+.project-tile .project-tile-blur {
+    background-image: inherit;
+    background-position: inherit;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: sticky;
+}
+
+.project-tile .project-tile-blur:before {
+    background-image: inherit;
+    background-position: inherit;
+    -webkit-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.project-tile .project-tile-blur .project-tile-content {
+    -webkit-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0);
+    padding: 10px 0 10px 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+}
+
+#disclaimer p {
+    font-size: .8rem;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+	
+}
+
+.skills-list ul {
+    list-style-type: none;
+}
+
+.skills-list li {
+    font-size: 1.5rem;
+	padding: 10px;
+}
+
+.social-item {
+	margin-top: 40px;
+}
+
+.social-item a {
+	max-width: 300px;
+	color: black;
+	text-decoration: none;
+}
+
+.social-wrapper {
+    margin: 20px 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.social-wrapper img {
+	width: 50px;
+	margin-right: 25px;
+}
+
+
+#backToTopButton {
+    height: 36px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 28px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 10px 18px 0 18px;
+    text-decoration: none;
+}
+
+#backToTopButton:hover {
+    color: white;
+}
+
+
+
+/***************************************************************************
+    Style for larger Displays
+*/
+@media only screen and (min-width: 601px) {
+    #page-title {
+        font-size: 80px;
+    }
+
+    .subtitle {
+        font-size: 80px;
+    }
+
+    main {
+        margin: 40px 80px 80px 80px;
+    }
+
+
+    .project-tile {
+        width: 500px;
+    }
+}
+
+/***************************************************************************
+    Style for smaller Displays
+*/
+@media only screen and (max-width: 600px) {
+	
+	html {
+		font-size: 13px;
+	}
+	
+    #page-title {
+        font-size: 13vw;
+    }
+
+    main {
+        font-size: 25px;
+        margin: 40px 20px 80px 20px;
+    }
+
+
+    .welcome-image img {
+		max-width: 600px;
+		width: 100%;
+		float: none;
+	}
+
+    .project-tile {
+        width: 100%;
+    }
+	
+	#backToTopButton {
+		font-size: 17px;
+	}
+}
+
+/***************************************************************************
+    DARK MODE
+    Default on systems without a preferred color scheme
+    Used by systems that prefer the dark color scheme
+    Is overridden by light mode with systems that prefer the light color scheme
+*/
+
+/* @media (prefers-color-scheme: dark) { */
+.fixed {
+    background-color: rgba(33, 37, 46, 0.9);
+}
+
+body {
+    background: var(--dark-mode-gray);
+    color: white;
+}
+
+h2.subtitle {
+    color: white;
+}
+
+#disclaimer .subtitle a {
+    color: white
+}
+
+#page-title {
+    color: white;
+}
+
+#back-home-link {
+    margin-bottom: 2rem;
+}
+#back-home-link a {
+    color: white;
+}
+
+.project-tile {
+    border-color: white
+}
+
+hr {
+    border: 1px solid rgb(78, 87, 109);
+}
+
+input,
+textarea {
+    background-color: rgb(143, 143, 143);
+    color: white;
+}
+
+#backToTopButton:hover {
+    background-color: var(--soft-red);
+    color: white;
+}
+/*
+    End of Dark Mode
+ **************************************************************************/
+
+/***************************************************************************
+    LIGHT MODE
+    Used by systems that prefer the dark color scheme
+*/
+@media (prefers-color-scheme: light) {
+    .fixed {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    h2.subtitle {
+        color: black;
+    }
+
+    #disclaimer .subtitle a {
+        color: black
+    }
+
+
+    #page-title {
+        color: black;
+    }
+
+    .project-tile {
+        border-color: #2d2e30
+    }
+
+    hr {
+        border: 1px solid rgb(237, 237, 237);
+    }
+	
+	input,
+	textarea {
+	    background-color: white;
+	    color: black;
+	}
+
+    #backToTopButton {
+	    border-color: #003691;
+	}
+	
+    #backToTopButton:hover {
+        background-color: #003691;
+        border-color: white;
+    }
+
+    #back-home-link a {
+        color: black;
+    }
+}
