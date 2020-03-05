@@ -1,0 +1,237 @@
+:root {
+    --dark-mode-gray:#21252E;
+    --dark-blue: #003691;
+    --light-blue: #3D84FF;
+    --dark-red: rgb(126, 21, 44);
+    --soft-red: #FF0061;
+    --dark-hamburger-bar-gray: #232323;
+    --light-hamburger-bar-gray: #bbbbbb;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-bar {
+        height: 0;
+    }
+
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+    }
+
+    /*
+     * Hamburger menu bars
+     */
+    .hamburger-bar {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+
+    .hamburger-bar:first-child {
+        transform-origin: 0 0;
+    }
+
+    .hamburger-bar:nth-last-child(2) {
+        transform-origin: 0 100%;
+    }
+
+    /* 
+     * Turn all hamburger bars by 45 degree
+     */
+    #menuToggle input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #cdcdcd;
+    }
+
+    /*
+     * Hide middle hamburger bar
+     */
+    #menuToggle input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    /*
+     * Transform the last hamburger bar in the other direction
+     */
+    #menuToggle input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    /*
+     * Make this absolute positioned
+     * at the top left of the screen
+     */
+    #nav-bar-list {
+        top: 0;
+        height: 80vh;
+        position: absolute;
+        width: 100%;
+        margin: -100px 0 0 -50px;
+        padding: 125px 50px 50px;
+        list-style-type: none;
+        transform-origin: 0 0;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+		overflow:hidden;
+    }
+
+    #nav-bar-list li {
+		margin-left:0;
+        padding: 10px 0;
+		max-width:10px;
+    }
+
+    /*
+     * Slides menu to the left
+     */
+    #menuToggle input:checked~ul {
+        transform: none;
+    }
+
+    #nav-bar-list a {
+        width: auto;
+    }
+	
+	#nav-bar-wrapper {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+    #invisibleCheckbox {
+        display: none;
+    }
+
+    #nav-bar {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #nav-bar-wrapper {
+	}
+
+    #nav-bar a {
+        font-size: .8rem;
+    }
+
+    #nav-bar-list ul {
+        top: 0;
+        list-style-type: none;
+    }
+
+    #nav-bar-list li {
+        display: block;
+        float: left;
+        text-decoration: none;
+    }
+
+    #nav-bar-list .li-right {
+        float: right;
+    }
+
+}
+
+#nav-bar-list a {
+    background-color: transparent;
+    border-radius: 28px;
+    border: 2px solid;
+    display: inline-block;
+    margin: 0 1vw;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+/*
+    DARK MODE
+    (overrides light mode style)
+*/
+
+
+/* @media (prefers-color-scheme: dark) { */
+body {
+    background: var(--dark-mode-gray);
+    color: white;
+}
+
+#nav-bar-list a {
+    color: white;
+}
+
+.hamburger-bar {
+    background: var(--light-hamburger-bar-gray);
+}
+
+#nav-bar-list {
+    background: linear-gradient(var(--dark-mode-gray), var(--dark-blue));
+}
+
+#nav-bar a {
+    border-color: white;
+}
+
+#nav-bar-list a:hover,
+#nav-bar-list a.active {
+    color: white;
+    background-color: var(--dark-red);
+}
+
+/* } */
+
+/*
+    LIGHT MODE
+    (is the norm and only overriden if dark mode is enabled 
+    -> support for browsers that don't support prefer-color-scheme)
+*/
+@media (prefers-color-scheme: light) {
+    body {
+        background: white;
+        color: black;
+    }
+
+    .hamburger-bar {
+        background: var(--dark-hamburger-bar-gray);
+    }
+
+    #nav-bar-list {
+        background: linear-gradient(var(--dark-blue), white);
+    }
+
+    #nav-bar a {
+        color: var(--dark-blue);
+        border-color: var(--dark-blue);
+    }
+
+    #nav-bar-list a:hover,
+    #nav-bar-list a.active {
+        color: white;
+        background-color: var(--dark-blue);
+    }
+}

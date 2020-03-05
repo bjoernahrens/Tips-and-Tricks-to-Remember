@@ -1,0 +1,143 @@
+{ "root": [
+	{
+		"name" : "Terminal",
+		"files" : [
+		    "./Terminal Tools/smartmontools.md",
+		    "./Terminal Tools/units.md",
+		    "./Terminal Tools/speedtest-cli.md",
+		    "./Terminal Tools/youtube-dl.md",
+		    "./Terminal Tools/imagemagick.md"
+		]
+	},
+	{
+		"name": "macOS",
+		"files": [
+		    "./macOS/mouse.md",
+		    "./macOS/printer.md",
+		    "./macOS/brew.md",
+		    "./macOS/screenshots.md",
+		    "./macOS/startupChime.md",
+		    "./macOS/dock.md"
+		],
+		"subfolder": [
+			{
+				"name": "Quick Look Plugins",
+				"files": [
+				    "./macOS/Quick Look Plugins/Suspicious Package.md",
+				    "./macOS/Quick Look Plugins/QLStephen – files without type.md",
+				    "./macOS/Quick Look Plugins/BetterZip.md",
+				    "./macOS/Quick Look Plugins/QLMarkdown.md",
+				    "./macOS/Quick Look Plugins/Quicklook WebP.md",
+				    "./macOS/Quick Look Plugins/QuickLookJSON.md",
+				    "./macOS/Quick Look Plugins/More Infos and Source.md",
+				    "./macOS/Quick Look Plugins/QLColorCode.md",
+				    "./macOS/Quick Look Plugins/qlImageSize.md"
+				]
+			},
+			{
+				"name": "apps",
+				"files": [
+				    "./macOS/apps/Rocket – Slack-style Emoji picker.md",
+				    "./macOS/apps/Tot – Tiny Text Companion.md",
+				    "./macOS/apps/Textmate.md",
+				    "./macOS/apps/NameChanger.md",
+				    "./macOS/apps/coconutBattery.md",
+				    "./macOS/apps/Itsycal – Tiny Calender in the Menu Bar.md",
+				    "./macOS/apps/BetterZIP, incl. QuickLook Extension.md",
+				    "./macOS/apps/IINA – Media Player.md",
+				    "./macOS/apps/Asset Catalog Tinkerer.md",
+				    "./macOS/apps/Pock – Touch Bar Customizer.md",
+				    "./macOS/apps/Keka – Unarchiver and Archiver for ZIP, 7Z, ect.md"
+				]
+			}
+		]
+	},
+	{
+		"name": "gpg",
+		"files": [
+			 "./gpg/basic_gpg.md"
+		 ]	
+	},
+	{
+		"name": "watchOS",
+		"files" : [
+		    "./watchOS/Better Day.md",
+		    "./watchOS/Nano for Reddit.md",
+		    "./watchOS/Clicker – Count Anything.md"
+		]
+	},
+	{
+		"name": "shell",
+		"files": [
+		    "./shell/get single frame from video.md",
+		    "./shell/markdown_to_html.md"
+		]
+	},
+	{
+		"name": "Apple Development",
+		"files": [
+		    "./Apple Development/LinkGithub – Swift Library – Time.md",
+		    "./Apple Development/Link – iOS Performance Tips.md"
+		]
+	},
+	{
+		"name": "markdown",
+		"files": [
+		    "./markdown/linebreak.md",
+		    "./markdown/code.md"
+		]
+	},
+	{
+		"name": "Maven",
+		"files": [
+		    "./Maven/Executing_application.md",
+		    "./Maven/Download_SourceCode_and_Javadoc.md"
+		]
+	},
+	{
+		"name": "iOS",
+		"files": [
+		],
+		"subfolder": [
+			{
+				"name": "apps",
+				"files": [
+				    "./iOS/apps/Tweetbot – Twitter Client.md",
+				    "./iOS/apps/Apollo – Reddit Client.md"
+				],
+				"subfolder": [
+					{
+						"name": "dev",
+						"files": [
+						    "./iOS/apps/dev/Hexer.md",
+						    "./iOS/apps/dev/Textastic.md",
+						    "./iOS/apps/dev/Working Copy.md",
+						    "./iOS/apps/dev/Jayson.md"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "zsh",
+		"files": [
+			 "./zsh/zsh-syntax-highlighting.md"
+		]
+	},
+	{
+		"name": "git",
+		"files": [
+		    "./git/delete_remotely_deleted_branches_from_local.md",
+		    "./git/sign_commits_with_GPG.md",
+		    "./git/override_git_config.md"
+		]
+	},
+	{
+		"name": "Cygwin",
+		"files": [
+		    "./Cygwin/git.md",
+		    "./Cygwin/zsh.md"
+		]
+	}
+]} 
