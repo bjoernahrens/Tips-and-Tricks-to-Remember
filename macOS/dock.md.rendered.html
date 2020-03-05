@@ -1,7 +1,13 @@
 <h1 id="dock">Dock</h1>
 <h2 id="autohide-delay">Autohide Delay</h2>
+<p>The delay between moving your mouse to the bottom of the screen and the dock actually appearing. 0 means instantly.</p>
 <pre class="shell"><code>defaults write com.apple.dock autohide-delay -float 0; killall Dock
 </code></pre>
 <h2 id="autohide-speed">Autohide Speed</h2>
+<p>The speed at which the dock appears</p>
 <pre class="shell"><code>defaults write com.apple.dock autohide-time-modifier -float 0.4; killall Dock
+</code></pre>
+<h2 id="make-the-icons-of-hidden-apps-transparent">Make the Icons of Hidden Apps Transparent</h2>
+<p>When you hide an app (via Cmd + H), the app icon in the dock will become transparent.</p>
+<pre class="shell"><code>defaults write com.apple.dock showhidden -bool TRUE; killall Dock
 </code></pre>
