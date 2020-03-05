@@ -3,7 +3,6 @@
 
 Find more information under [brew.sh](https://brew.sh/)
 
----
 also from brew.sh:
 
 ## What does Homebrew do?

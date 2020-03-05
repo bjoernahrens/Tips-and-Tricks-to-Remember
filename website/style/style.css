@@ -47,7 +47,7 @@ hr {
 
 .folder>h1 {
     font-size: 7vw;
-    color: var(--dark-blue)
+    color: var(--light-blue)
 }
 
 .folder>hr {
@@ -95,6 +95,11 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+}
+
 /*
     End of Dark Mode
  **************************************************************************/
@@ -109,8 +114,17 @@ body {
         color: black;
     }
 
+a {
+    color: black;
+    text-decoration: overline;
+}
+
     hr {
         border-color: var(--hr-dark-gray);
     }
+	
+	.folder>h1 {
+	    color: var(--dark-blue)
+	}
 
 }
