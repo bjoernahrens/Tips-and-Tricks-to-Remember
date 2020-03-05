@@ -1,0 +1,15 @@
+<h2 id="swift-library-time"><a href="https://github.com/davedelong/time/">Swift Library: Time</a></h2>
+<blockquote>
+<p><code>Time</code> is a Swift package that makes dealing with calendar values a natural and straight-forward process.</p>
+</blockquote>
+<blockquote>
+<p>Working with calendars can be extremely complicated and error-prone. <code>Time</code> solves these problems by clarifying concepts and restricting improper usage through type-safe APIs.</p>
+</blockquote>
+<h2 id="the-basics">The Basics</h2>
+<p>Here's the TL;DR of the documentation:</p>
+<ul>
+<li><p>If you want to know what time it is, you need a <code>Clock</code>. You can get the device's clock by using <code>Clock.system</code>.</p></li>
+<li><p>A <code>Clock</code> can tell you the current time via some functions. For example, <code>.today()</code> will give you the current calendar day. <code>.thisMinute()</code> will give you the current time, accurate down to the <em>minute</em> level.</p></li>
+<li><p>Each of these returned values has methods to retrieve more- and less- precise values. For example, <code>today.hours()</code> will give you a sequence of all the "Hour" values in the day.</p></li>
+<li><p>These values also are how you <em>format</em> them into human-readable strings (via the <code>.format(...)</code> method)</p></li>
+</ul>

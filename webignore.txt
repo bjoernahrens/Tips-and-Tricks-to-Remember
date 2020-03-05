@@ -1,0 +1,10 @@
+.git
+website
+README.md
+webignore.txt
+.gitignore
+CNAME
+index.html
+folderStructure.py
+folderStructure.json
+compileMarkdown.sh

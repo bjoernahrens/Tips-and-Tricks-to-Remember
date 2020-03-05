@@ -1,57 +1,681 @@
-{ "files": [
- "./folderStructureToBe.json",
- "./Terminal Tools/smartmontools.md",
- "./Terminal Tools/units.md",
- "./Terminal Tools/speedtest-cli.md",
- "./Terminal Tools/youtube-dl.md",
- "./Terminal Tools/imagemagick.md",
- "./macOS/mouse.md",
- "./macOS/printer.md",
- "./macOS/brew.md",
- "./macOS/screenshots.md",
- "./macOS/startupChime.md",
- "./macOS/dock.md",
- "./macOS/Quick Look Plugins/Suspicious Package.md",
- "./macOS/Quick Look Plugins/QLStephen – files without type.md",
- "./macOS/Quick Look Plugins/BetterZip.md",
- "./macOS/Quick Look Plugins/QLMarkdown.md",
- "./macOS/Quick Look Plugins/Quicklook WebP.md",
- "./macOS/Quick Look Plugins/QuickLookJSON.md",
- "./macOS/Quick Look Plugins/More Infos and Source.md",
- "./macOS/Quick Look Plugins/QLColorCode.md",
- "./macOS/Quick Look Plugins/qlImageSize.md",
- "./macOS/apps/Rocket – Slack-style Emoji picker.md",
- "./macOS/apps/Tot – Tiny Text Companion.md",
- "./macOS/apps/Textmate.md",
- "./macOS/apps/NameChanger.md",
- "./macOS/apps/coconutBattery.md",
- "./macOS/apps/Itsycal – Tiny Calender in the Menu Bar.md",
- "./macOS/apps/BetterZIP, incl. QuickLook Extension.md",
- "./macOS/apps/IINA – Media Player.md",
- "./macOS/apps/Asset Catalog Tinkerer.md",
- "./macOS/apps/Pock – Touch Bar Customizer.md",
- "./macOS/apps/Keka – Unarchiver and Archiver for ZIP, 7Z, ect.md",
- "./gpg/basic_gpg.md",
- "./watchOS/Better Day.md",
- "./watchOS/Nano for Reddit.md",
- "./watchOS/Clicker – Count Anything.md",
- "./shell/get single frame from video.md",
- "./shell/markdown_to_html.md",
- "./Apple Development/LinkGithub – Swift Library – Time.md",
- "./Apple Development/Link – iOS Performance Tips.md",
- "./markdown/linebreak.md",
- "./markdown/code.md",
- "./Maven/Executing_application.md",
- "./Maven/Download_SourceCode_and_Javadoc.md",
- "./iOS/apps/Tweetbot – Twitter Client.md",
- "./iOS/apps/Apollo – Reddit Client.md",
- "./iOS/apps/dev/Hexer.md",
- "./iOS/apps/dev/Textastic.md",
- "./iOS/apps/dev/Working Copy.md",
- "./iOS/apps/dev/Jayson.md",
- "./zsh/zsh-syntax-highlighting.md",
- "./git/delete_remotely_deleted_branches_from_local.md",
- "./git/sign_commits_with_GPG.md",
- "./git/override_git_config.md",
- "./Cygwin/git.md",
- "./Cygwin/zsh.md"]} 
+{
+  "type": "folder",
+  "name": "Tips and Tricks To Remember",
+  "path": ".",
+  "children": [
+    {
+      "type": "folder",
+      "name": "Terminal Tools",
+      "path": "./Terminal Tools",
+      "children": [
+        {
+          "type": ".md",
+          "name": "smartmontools.md",
+          "path": "./Terminal Tools/smartmontools.md"
+        },
+        {
+          "type": ".html",
+          "name": "speedtest-cli.md.rendered.html",
+          "path": "./Terminal Tools/speedtest-cli.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "youtube-dl.md.rendered.html",
+          "path": "./Terminal Tools/youtube-dl.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "imagemagick.md.rendered.html",
+          "path": "./Terminal Tools/imagemagick.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "smartmontools.md.rendered.html",
+          "path": "./Terminal Tools/smartmontools.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "units.md",
+          "path": "./Terminal Tools/units.md"
+        },
+        {
+          "type": ".md",
+          "name": "speedtest-cli.md",
+          "path": "./Terminal Tools/speedtest-cli.md"
+        },
+        {
+          "type": ".html",
+          "name": "units.md.rendered.html",
+          "path": "./Terminal Tools/units.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "youtube-dl.md",
+          "path": "./Terminal Tools/youtube-dl.md"
+        },
+        {
+          "type": ".md",
+          "name": "imagemagick.md",
+          "path": "./Terminal Tools/imagemagick.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "macOS",
+      "path": "./macOS",
+      "children": [
+        {
+          "type": ".md",
+          "name": "mouse.md",
+          "path": "./macOS/mouse.md"
+        },
+        {
+          "type": "folder",
+          "name": "Quick Look Plugins",
+          "path": "./macOS/Quick Look Plugins",
+          "children": [
+            {
+              "type": ".html",
+              "name": "QLColorCode.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/QLColorCode.md.rendered.html"
+            },
+            {
+              "type": ".html",
+              "name": "QLStephen \u2013 files without type.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/QLStephen \u2013 files without type.md.rendered.html"
+            },
+            {
+              "type": ".html",
+              "name": "QuickLookJSON.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/QuickLookJSON.md.rendered.html"
+            },
+            {
+              "type": ".html",
+              "name": "QLMarkdown.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/QLMarkdown.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "Suspicious Package.md",
+              "path": "./macOS/Quick Look Plugins/Suspicious Package.md"
+            },
+            {
+              "type": ".md",
+              "name": "QLStephen \u2013 files without type.md",
+              "path": "./macOS/Quick Look Plugins/QLStephen \u2013 files without type.md"
+            },
+            {
+              "type": ".html",
+              "name": "BetterZip.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/BetterZip.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "BetterZip.md",
+              "path": "./macOS/Quick Look Plugins/BetterZip.md"
+            },
+            {
+              "type": ".md",
+              "name": "QLMarkdown.md",
+              "path": "./macOS/Quick Look Plugins/QLMarkdown.md"
+            },
+            {
+              "type": ".html",
+              "name": "Suspicious Package.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/Suspicious Package.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "Quicklook WebP.md",
+              "path": "./macOS/Quick Look Plugins/Quicklook WebP.md"
+            },
+            {
+              "type": ".html",
+              "name": "qlImageSize.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/qlImageSize.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "QuickLookJSON.md",
+              "path": "./macOS/Quick Look Plugins/QuickLookJSON.md"
+            },
+            {
+              "type": ".html",
+              "name": "More Infos and Source.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/More Infos and Source.md.rendered.html"
+            },
+            {
+              "type": ".html",
+              "name": "Quicklook WebP.md.rendered.html",
+              "path": "./macOS/Quick Look Plugins/Quicklook WebP.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "More Infos and Source.md",
+              "path": "./macOS/Quick Look Plugins/More Infos and Source.md"
+            },
+            {
+              "type": ".md",
+              "name": "QLColorCode.md",
+              "path": "./macOS/Quick Look Plugins/QLColorCode.md"
+            },
+            {
+              "type": ".md",
+              "name": "qlImageSize.md",
+              "path": "./macOS/Quick Look Plugins/qlImageSize.md"
+            }
+          ]
+        },
+        {
+          "type": ".md",
+          "name": "printer.md",
+          "path": "./macOS/printer.md"
+        },
+        {
+          "type": ".md",
+          "name": "brew.md",
+          "path": "./macOS/brew.md"
+        },
+        {
+          "type": ".html",
+          "name": "printer.md.rendered.html",
+          "path": "./macOS/printer.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "dock.md.rendered.html",
+          "path": "./macOS/dock.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "screenshots.md",
+          "path": "./macOS/screenshots.md"
+        },
+        {
+          "type": ".html",
+          "name": "brew.md.rendered.html",
+          "path": "./macOS/brew.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "startupChime.md.rendered.html",
+          "path": "./macOS/startupChime.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "screenshots.md.rendered.html",
+          "path": "./macOS/screenshots.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "startupChime.md",
+          "path": "./macOS/startupChime.md"
+        },
+        {
+          "type": ".md",
+          "name": "dock.md",
+          "path": "./macOS/dock.md"
+        },
+        {
+          "type": "folder",
+          "name": "renderedMarkdown",
+          "path": "./macOS/renderedMarkdown",
+          "children": [
+            {
+              "type": ".html",
+              "name": "brew.html",
+              "path": "./macOS/renderedMarkdown/brew.html"
+            }
+          ]
+        },
+        {
+          "type": ".html",
+          "name": "mouse.md.rendered.html",
+          "path": "./macOS/mouse.md.rendered.html"
+        },
+        {
+          "type": "folder",
+          "name": "apps",
+          "path": "./macOS/apps",
+          "children": [
+            {
+              "type": ".html",
+              "name": "Pock \u2013 Touch Bar Customizer.md.rendered.html",
+              "path": "./macOS/apps/Pock \u2013 Touch Bar Customizer.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "Rocket \u2013 Slack-style Emoji picker.md",
+              "path": "./macOS/apps/Rocket \u2013 Slack-style Emoji picker.md"
+            },
+            {
+              "type": ".html",
+              "name": "coconutBattery.md.rendered.html",
+              "path": "./macOS/apps/coconutBattery.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "Tot \u2013 Tiny Text Companion.md",
+              "path": "./macOS/apps/Tot \u2013 Tiny Text Companion.md"
+            },
+            {
+              "type": ".md",
+              "name": "Textmate.md",
+              "path": "./macOS/apps/Textmate.md"
+            },
+            {
+              "type": ".md",
+              "name": "NameChanger.md",
+              "path": "./macOS/apps/NameChanger.md"
+            },
+            {
+              "type": ".html",
+              "name": "Tot \u2013 Tiny Text Companion.md.rendered.html",
+              "path": "./macOS/apps/Tot \u2013 Tiny Text Companion.md.rendered.html"
+            },
+            {
+              "type": ".html",
+              "name": "NameChanger.md.rendered.html",
+              "path": "./macOS/apps/NameChanger.md.rendered.html"
+            },
+            {
+              "type": ".html",
+              "name": "Textmate.md.rendered.html",
+              "path": "./macOS/apps/Textmate.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "coconutBattery.md",
+              "path": "./macOS/apps/coconutBattery.md"
+            },
+            {
+              "type": ".html",
+              "name": "Keka \u2013 Unarchiver and Archiver for ZIP, 7Z, ect.md.rendered.html",
+              "path": "./macOS/apps/Keka \u2013 Unarchiver and Archiver for ZIP, 7Z, ect.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "Itsycal \u2013 Tiny Calender in the Menu Bar.md",
+              "path": "./macOS/apps/Itsycal \u2013 Tiny Calender in the Menu Bar.md"
+            },
+            {
+              "type": ".html",
+              "name": "IINA \u2013 Media Player.md.rendered.html",
+              "path": "./macOS/apps/IINA \u2013 Media Player.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "BetterZIP, incl. QuickLook Extension.md",
+              "path": "./macOS/apps/BetterZIP, incl. QuickLook Extension.md"
+            },
+            {
+              "type": ".html",
+              "name": "Rocket \u2013 Slack-style Emoji picker.md.rendered.html",
+              "path": "./macOS/apps/Rocket \u2013 Slack-style Emoji picker.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "IINA \u2013 Media Player.md",
+              "path": "./macOS/apps/IINA \u2013 Media Player.md"
+            },
+            {
+              "type": ".html",
+              "name": "BetterZIP, incl. QuickLook Extension.md.rendered.html",
+              "path": "./macOS/apps/BetterZIP, incl. QuickLook Extension.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "Asset Catalog Tinkerer.md",
+              "path": "./macOS/apps/Asset Catalog Tinkerer.md"
+            },
+            {
+              "type": ".md",
+              "name": "Pock \u2013 Touch Bar Customizer.md",
+              "path": "./macOS/apps/Pock \u2013 Touch Bar Customizer.md"
+            },
+            {
+              "type": ".html",
+              "name": "Itsycal \u2013 Tiny Calender in the Menu Bar.md.rendered.html",
+              "path": "./macOS/apps/Itsycal \u2013 Tiny Calender in the Menu Bar.md.rendered.html"
+            },
+            {
+              "type": ".html",
+              "name": "Asset Catalog Tinkerer.md.rendered.html",
+              "path": "./macOS/apps/Asset Catalog Tinkerer.md.rendered.html"
+            },
+            {
+              "type": ".md",
+              "name": "Keka \u2013 Unarchiver and Archiver for ZIP, 7Z, ect.md",
+              "path": "./macOS/apps/Keka \u2013 Unarchiver and Archiver for ZIP, 7Z, ect.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "gpg",
+      "path": "./gpg",
+      "children": [
+        {
+          "type": ".html",
+          "name": "basic_gpg.md.rendered.html",
+          "path": "./gpg/basic_gpg.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "basic_gpg.md",
+          "path": "./gpg/basic_gpg.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "watchOS",
+      "path": "./watchOS",
+      "children": [
+        {
+          "type": ".md",
+          "name": "Better Day.md",
+          "path": "./watchOS/Better Day.md"
+        },
+        {
+          "type": ".html",
+          "name": "Better Day.md.rendered.html",
+          "path": "./watchOS/Better Day.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "Clicker \u2013 Count Anything.md.rendered.html",
+          "path": "./watchOS/Clicker \u2013 Count Anything.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "Nano for Reddit.md.rendered.html",
+          "path": "./watchOS/Nano for Reddit.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "Nano for Reddit.md",
+          "path": "./watchOS/Nano for Reddit.md"
+        },
+        {
+          "type": ".md",
+          "name": "Clicker \u2013 Count Anything.md",
+          "path": "./watchOS/Clicker \u2013 Count Anything.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "shell",
+      "path": "./shell",
+      "children": [
+        {
+          "type": ".md",
+          "name": "get single frame from video.md",
+          "path": "./shell/get single frame from video.md"
+        },
+        {
+          "type": ".md",
+          "name": "markdown_to_html.md",
+          "path": "./shell/markdown_to_html.md"
+        },
+        {
+          "type": ".html",
+          "name": "get single frame from video.md.rendered.html",
+          "path": "./shell/get single frame from video.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "markdown_to_html.md.rendered.html",
+          "path": "./shell/markdown_to_html.md.rendered.html"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Apple Development",
+      "path": "./Apple Development",
+      "children": [
+        {
+          "type": ".md",
+          "name": "LinkGithub \u2013 Swift Library \u2013 Time.md",
+          "path": "./Apple Development/LinkGithub \u2013 Swift Library \u2013 Time.md"
+        },
+        {
+          "type": ".md",
+          "name": "Link \u2013 iOS Performance Tips.md",
+          "path": "./Apple Development/Link \u2013 iOS Performance Tips.md"
+        },
+        {
+          "type": ".html",
+          "name": "Link \u2013 iOS Performance Tips.md.rendered.html",
+          "path": "./Apple Development/Link \u2013 iOS Performance Tips.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "LinkGithub \u2013 Swift Library \u2013 Time.md.rendered.html",
+          "path": "./Apple Development/LinkGithub \u2013 Swift Library \u2013 Time.md.rendered.html"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "markdown",
+      "path": "./markdown",
+      "children": [
+        {
+          "type": ".md",
+          "name": "linebreak.md",
+          "path": "./markdown/linebreak.md"
+        },
+        {
+          "type": ".html",
+          "name": "linebreak.md.rendered.html",
+          "path": "./markdown/linebreak.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "code.md.rendered.html",
+          "path": "./markdown/code.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "code.md",
+          "path": "./markdown/code.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Maven",
+      "path": "./Maven",
+      "children": [
+        {
+          "type": ".html",
+          "name": "Executing_application.md.rendered.html",
+          "path": "./Maven/Executing_application.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "Executing_application.md",
+          "path": "./Maven/Executing_application.md"
+        },
+        {
+          "type": ".md",
+          "name": "Download_SourceCode_and_Javadoc.md",
+          "path": "./Maven/Download_SourceCode_and_Javadoc.md"
+        },
+        {
+          "type": ".html",
+          "name": "Download_SourceCode_and_Javadoc.md.rendered.html",
+          "path": "./Maven/Download_SourceCode_and_Javadoc.md.rendered.html"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "iOS",
+      "path": "./iOS",
+      "children": [
+        {
+          "type": "folder",
+          "name": "apps",
+          "path": "./iOS/apps",
+          "children": [
+            {
+              "type": ".md",
+              "name": "Tweetbot \u2013 Twitter Client.md",
+              "path": "./iOS/apps/Tweetbot \u2013 Twitter Client.md"
+            },
+            {
+              "type": ".html",
+              "name": "Tweetbot \u2013 Twitter Client.md.rendered.html",
+              "path": "./iOS/apps/Tweetbot \u2013 Twitter Client.md.rendered.html"
+            },
+            {
+              "type": "folder",
+              "name": "dev",
+              "path": "./iOS/apps/dev",
+              "children": [
+                {
+                  "type": ".html",
+                  "name": "Jayson.md.rendered.html",
+                  "path": "./iOS/apps/dev/Jayson.md.rendered.html"
+                },
+                {
+                  "type": ".html",
+                  "name": "Working Copy.md.rendered.html",
+                  "path": "./iOS/apps/dev/Working Copy.md.rendered.html"
+                },
+                {
+                  "type": ".md",
+                  "name": "Hexer.md",
+                  "path": "./iOS/apps/dev/Hexer.md"
+                },
+                {
+                  "type": ".html",
+                  "name": "Textastic.md.rendered.html",
+                  "path": "./iOS/apps/dev/Textastic.md.rendered.html"
+                },
+                {
+                  "type": ".html",
+                  "name": "Hexer.md.rendered.html",
+                  "path": "./iOS/apps/dev/Hexer.md.rendered.html"
+                },
+                {
+                  "type": ".md",
+                  "name": "Textastic.md",
+                  "path": "./iOS/apps/dev/Textastic.md"
+                },
+                {
+                  "type": ".md",
+                  "name": "Working Copy.md",
+                  "path": "./iOS/apps/dev/Working Copy.md"
+                },
+                {
+                  "type": ".md",
+                  "name": "Jayson.md",
+                  "path": "./iOS/apps/dev/Jayson.md"
+                }
+              ]
+            },
+            {
+              "type": ".md",
+              "name": "Apollo \u2013 Reddit Client.md",
+              "path": "./iOS/apps/Apollo \u2013 Reddit Client.md"
+            },
+            {
+              "type": ".html",
+              "name": "Apollo \u2013 Reddit Client.md.rendered.html",
+              "path": "./iOS/apps/Apollo \u2013 Reddit Client.md.rendered.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "zsh",
+      "path": "./zsh",
+      "children": [
+        {
+          "type": ".html",
+          "name": "zsh-syntax-highlighting.md.rendered.html",
+          "path": "./zsh/zsh-syntax-highlighting.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "zsh-syntax-highlighting.md",
+          "path": "./zsh/zsh-syntax-highlighting.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "git",
+      "path": "./git",
+      "children": [
+        {
+          "type": ".html",
+          "name": "override_git_config.md.rendered.html",
+          "path": "./git/override_git_config.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "sign_commits_with_GPG.md.rendered.html",
+          "path": "./git/sign_commits_with_GPG.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "delete_remotely_deleted_branches_from_local.md.rendered.html",
+          "path": "./git/delete_remotely_deleted_branches_from_local.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "delete_remotely_deleted_branches_from_local.md",
+          "path": "./git/delete_remotely_deleted_branches_from_local.md"
+        },
+        {
+          "type": ".md",
+          "name": "sign_commits_with_GPG.md",
+          "path": "./git/sign_commits_with_GPG.md"
+        },
+        {
+          "type": ".md",
+          "name": "override_git_config.md",
+          "path": "./git/override_git_config.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Cygwin",
+      "path": "./Cygwin",
+      "children": [
+        {
+          "type": ".html",
+          "name": "git.md.rendered.html",
+          "path": "./Cygwin/git.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "git.md",
+          "path": "./Cygwin/git.md"
+        },
+        {
+          "type": ".md",
+          "name": "zsh.md",
+          "path": "./Cygwin/zsh.md"
+        },
+        {
+          "type": ".html",
+          "name": "zsh.md.rendered.html",
+          "path": "./Cygwin/zsh.md.rendered.html"
+        }
+      ]
+    }
+  ]
+}

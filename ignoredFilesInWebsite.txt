@@ -1,8 +1,0 @@
-ignoredFilesInWebsite.txt
-ignoredFoldersInWebsite.txt
-.gitignore
-CNAME
-index.html
-folderStructure.py
-README.md
-folderStructure.json

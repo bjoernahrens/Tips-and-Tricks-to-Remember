@@ -1,0 +1,11 @@
+<h1 id="startup-chime">Startup Chime</h1>
+<p>On newer Macs, the startup chime is disabled by default. This simple command reenables it.</p>
+<pre class="shell"><code>sudo nvram StartupMute=%00
+</code></pre>
+<p>Source: <a href="https://twitter.com/twostraws/status/1230983889830764544?s=21">Tweet by Paul Hudson (@twostraws)</a></p>
+<p>To reset:</p>
+<pre class="shell"><code>sudo nvram -d StartupMute
+</code></pre>
+<p>or (not sure which works)</p>
+<pre class="shell"><code>sudo nvram StartupMute=%100
+</code></pre>

@@ -1,0 +1,10 @@
+<h2 id="markdown-to-html-conversion">Markdown to HTML conversion</h2>
+<pre class="shell"><code>pandoc --metadata title=&quot;Markdown to HTML&quot; -s -o markdown_output.html markdown_to_html.md
+</code></pre>
+<ul>
+<li><p>to merge multiple markdown files into a single html, just add more after the first one in a varargs style</p></li>
+<li><p>or <code>pandoc -s -o output.html input*.md</code> in glob style</p></li>
+<li><p><code>-s</code> tells pandoc to create a self-contained file (so it will contain <html></html> tags etc, rather than just generating a fragment)</p></li>
+<li><p><code>-o</code><br />
+output.html specifies that output.html will be the output file</p></li>
+</ul>
