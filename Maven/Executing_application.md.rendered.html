@@ -1,0 +1,20 @@
+<h1 id="executing-the-application">Executing the application</h1>
+<ol>
+<li><p>Add the following to the <code>pom.xml</code>:<br />
+(Add the correct Class containing the main() method to the mainClass tag)</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode XML"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">&lt;build&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>    <span class="kw">&lt;plugins&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a>        <span class="kw">&lt;plugin&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>            <span class="kw">&lt;groupId&gt;</span>org.codehaus.mojo<span class="kw">&lt;/groupId&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a>            <span class="kw">&lt;artifactId&gt;</span>exec-maven-plugin<span class="kw">&lt;/artifactId&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a>            <span class="kw">&lt;version&gt;</span>1.6.0<span class="kw">&lt;/version&gt;</span><span class="co">&lt;!--$NO-MVN-MAN-VER$--&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a>            <span class="kw">&lt;configuration&gt;</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a>                <span class="kw">&lt;mainClass&gt;</span>com.example.application.Main<span class="kw">&lt;/mainClass&gt;</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a>            <span class="kw">&lt;/configuration&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a>        <span class="kw">&lt;/plugin&gt;</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a>    <span class="kw">&lt;/plugins&gt;</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="kw">&lt;/build&gt;</span></span></code></pre></div></li>
+<li><p>If the application was packaged/installed using a profile, the profile has to be used as well for execution. Otherwise it will use the default profile. Use the execution command:</p>
+<pre class="shell"><code>mvn exec:java -P profileName
+</code></pre></li>
+</ol>

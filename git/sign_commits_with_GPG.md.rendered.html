@@ -1,0 +1,27 @@
+<h1 id="signing-commits--tags-in-git-with-gpg">Signing Commits / Tags in Git with GPG</h1>
+<p>Source: <a href="https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification">https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification</a></p>
+<h3 id="generate-newuse-existing-gpg-key">Generate new/Use existing GPG key</h3>
+<ul>
+<li>See Basic GPG guide</li>
+</ul>
+<h3 id="add-key-to-github--bitbucket">Add key to Github / Bitbucket</h3>
+<ul>
+<li>Add to Github under Settings &gt; SSH &amp; GPG keys</li>
+</ul>
+<h3 id="tell-local-git-about-your-gpg-key">Tell Local Git about your GPG key</h3>
+<ul>
+<li><p>Get GPG key id:<br />
+<code>gpg --list-secret-keys --keyid-format LONG</code></p></li>
+<li><p>Set User Signing Key:<br />
+<code>git config --global user.signingkey &lt;keyid&gt;</code> (&lt;- substutute with the GPG key ID from the list above, after 4096R/...)<br />
+For local git configuration, add in the config file:<br />
+<code>[user] signingkey = &lt;keyid&gt;</code></p></li>
+<li><p>Manual sign:<br />
+<code>git commit -S -m "message"</code></p></li>
+<li><p>To auto sign every commit, add to git config: <code>[commit]  gpgsign = true</code></p></li>
+</ul>
+<h3 id="verify-signed-commits">Verify signed commits</h3>
+<ul>
+<li><code>git verfiy-commit &lt;commit-hash&gt;</code><br />
+However, the public key has to be imported in order for gpg to be able to verify the commit</li>
+</ul>

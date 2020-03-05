@@ -1,0 +1,18 @@
+<h1 id="quicklook-plugins">Quicklook Plugins</h1>
+<p>Sources:</p>
+<ul>
+<li>my own experience</li>
+<li><a href="https://github.com/sindresorhus/quick-look-plugins">github.com/sindresorhus/quick-look-plugins</a> (under Public Domain)</li>
+</ul>
+<hr />
+<h2 id="more-info">More Info</h2>
+<p><em>also from <a href="https://github.com/sindresorhus/quick-look-plugins">github.com/sindresorhus/quick-look-plugins</a></em></p>
+<h4 id="catalina-notes">Catalina notes</h4>
+<p>To get plugins working in Catalina, you will need to remove the quarantine attribute.</p>
+<p>Run this to see the attributes:</p>
+<pre class="shell"><code>xattr -r ~/Library/QuickLook
+</code></pre>
+<p>And run this to remove the attributes:</p>
+<pre class="shell"><code>xattr -d -r com.apple.quarantine ~/Library/QuickLook
+</code></pre>
+<p>####Manually Click "download manually" Move the downloaded .qlgenerator file to ~/Library/QuickLook Run qlmanage -r</p>
