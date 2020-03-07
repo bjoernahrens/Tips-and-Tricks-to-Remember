@@ -66,9 +66,34 @@
       "path": "./macOS",
       "children": [
         {
+          "type": ".html",
+          "name": "Startup Chime.md.rendered.html",
+          "path": "./macOS/Startup Chime.md.rendered.html"
+        },
+        {
           "type": ".md",
-          "name": "mouse.md",
-          "path": "./macOS/mouse.md"
+          "name": "Mouse.md",
+          "path": "./macOS/Mouse.md"
+        },
+        {
+          "type": ".html",
+          "name": "Padbury Clock \u2013 Screensaver.md.rendered.html",
+          "path": "./macOS/Padbury Clock \u2013 Screensaver.md.rendered.html"
+        },
+        {
+          "type": ".md",
+          "name": "Startup Chime.md",
+          "path": "./macOS/Startup Chime.md"
+        },
+        {
+          "type": ".md",
+          "name": "Padbury Clock \u2013 Screensaver.md",
+          "path": "./macOS/Padbury Clock \u2013 Screensaver.md"
+        },
+        {
+          "type": ".html",
+          "name": "Homebrew.md.rendered.html",
+          "path": "./macOS/Homebrew.md.rendered.html"
         },
         {
           "type": "folder",
@@ -169,70 +194,48 @@
         },
         {
           "type": ".md",
-          "name": "printer.md",
-          "path": "./macOS/printer.md"
+          "name": "Printer.md",
+          "path": "./macOS/Printer.md"
+        },
+        {
+          "type": ".html",
+          "name": "Printer.md.rendered.html",
+          "path": "./macOS/Printer.md.rendered.html"
+        },
+        {
+          "type": ".html",
+          "name": "Dock.md.rendered.html",
+          "path": "./macOS/Dock.md.rendered.html"
         },
         {
           "type": ".md",
-          "name": "brew.md",
-          "path": "./macOS/brew.md"
-        },
-        {
-          "type": ".html",
-          "name": "printer.md.rendered.html",
-          "path": "./macOS/printer.md.rendered.html"
-        },
-        {
-          "type": ".html",
-          "name": "dock.md.rendered.html",
-          "path": "./macOS/dock.md.rendered.html"
+          "name": "Launchpad.md",
+          "path": "./macOS/Launchpad.md"
         },
         {
           "type": ".md",
-          "name": "screenshots.md",
-          "path": "./macOS/screenshots.md"
+          "name": "Screenshots.md",
+          "path": "./macOS/Screenshots.md"
         },
         {
           "type": ".html",
-          "name": "brew.md.rendered.html",
-          "path": "./macOS/brew.md.rendered.html"
+          "name": "Launchpad.md.rendered.html",
+          "path": "./macOS/Launchpad.md.rendered.html"
         },
         {
           "type": ".html",
-          "name": "startupChime.md.rendered.html",
-          "path": "./macOS/startupChime.md.rendered.html"
-        },
-        {
-          "type": ".html",
-          "name": "screenshots.md.rendered.html",
-          "path": "./macOS/screenshots.md.rendered.html"
+          "name": "Screenshots.md.rendered.html",
+          "path": "./macOS/Screenshots.md.rendered.html"
         },
         {
           "type": ".md",
-          "name": "startupChime.md",
-          "path": "./macOS/startupChime.md"
-        },
-        {
-          "type": ".md",
-          "name": "dock.md",
-          "path": "./macOS/dock.md"
-        },
-        {
-          "type": "folder",
-          "name": "renderedMarkdown",
-          "path": "./macOS/renderedMarkdown",
-          "children": [
-            {
-              "type": ".html",
-              "name": "brew.html",
-              "path": "./macOS/renderedMarkdown/brew.html"
-            }
-          ]
+          "name": "Dock.md",
+          "path": "./macOS/Dock.md"
         },
         {
           "type": ".html",
-          "name": "mouse.md.rendered.html",
-          "path": "./macOS/mouse.md.rendered.html"
+          "name": "Mouse.md.rendered.html",
+          "path": "./macOS/Mouse.md.rendered.html"
         },
         {
           "type": "folder",
@@ -350,6 +353,11 @@
               "path": "./macOS/apps/Keka \u2013 Unarchiver and Archiver for ZIP, 7Z, ect.md"
             }
           ]
+        },
+        {
+          "type": ".md",
+          "name": "Homebrew.md",
+          "path": "./macOS/Homebrew.md"
         }
       ]
     },
@@ -359,14 +367,14 @@
       "path": "./gpg",
       "children": [
         {
-          "type": ".html",
-          "name": "basic_gpg.md.rendered.html",
-          "path": "./gpg/basic_gpg.md.rendered.html"
+          "type": ".md",
+          "name": "GPG Basics.md",
+          "path": "./gpg/GPG Basics.md"
         },
         {
-          "type": ".md",
-          "name": "basic_gpg.md",
-          "path": "./gpg/basic_gpg.md"
+          "type": ".html",
+          "name": "GPG Basics.md.rendered.html",
+          "path": "./gpg/GPG Basics.md.rendered.html"
         }
       ]
     },
