@@ -4,17 +4,18 @@ const createFileElement = (fileContent, folderName) => {
     html += `</div><br><hr><br>`
     document.getElementById(folderName).innerHTML += html;
 }
-const createFolderContainer = folderObject => {
-    const html = `<div class="folder" id="${folderObject.name}"><h1>${folderObject.name}</h1></div>`
+const createFolderContainer = (folderObject, parentFolderName) => {
+    console.log(folderObject);
+    
+    const html = `<div class="folder" id="${folderObject.name}"><h1>${parentFolderName}${folderObject.name}</h1></div>`
     document.getElementById("content").innerHTML += html;
     folderObject.children.forEach(file => {
-        if (file.type !== '.html') {
-            
-        } else {
-
+        if (file.type === '.html') {
             fetch(file.path)
             .then(response => response.text())
             .then(fileContent => createFileElement(fileContent, folderObject.name))
+        } else if (file.type === 'folder') {
+            createFolderContainer(file, folderObject.name + " – ");
         }
     });
 }
@@ -25,7 +26,7 @@ const applyFolderStructure = () => {
         .then(responseObject => JSON.parse(responseObject))
         .then(json => {
             json.children.forEach(folderObject => {
-                createFolderContainer(folderObject)
+                createFolderContainer(folderObject, "")
             });
         })
 

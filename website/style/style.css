@@ -1,5 +1,5 @@
 :root {
-    --dark-mode-gray:#21252E;
+    --dark-mode-gray:#19222A;
     --dark-blue: #003691;
     --light-blue: #3D84FF;
     --dark-red: rgb(126, 21, 44);
@@ -14,7 +14,7 @@
 }
 
 * {
-    padding: 0;
+    padding: 0px;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -23,7 +23,7 @@
 html {
     width: 100%;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 17pt;
+    font-size: 15pt;
 }
 
 #page-title-container {
@@ -36,6 +36,10 @@ html {
     font-weight: bold;
 }
 
+#content {
+    margin: 8%;
+}
+
 .jb-mono-font {
     font-family: 'JetBrains Mono', sans-serif;
     font-weight: bold;
@@ -46,17 +50,35 @@ hr {
 }
 
 .folder>h1 {
-    font-size: 7vw;
+    font-size: 3rem;
     color: var(--light-blue)
 }
 
 .folder>hr {
-    border-width: 4px;
+    border-width: 2px;
+    margin: 0 5% 0 5%;
+}
+
+.file {
+    margin: 0 5% 0 5%;
+}
+
+.file * {
+    width: 80%
+}
+.file pre {
+    display: inline;
+    white-space: pre-line;
+}
+.file ul {
+    margin-left: 0;
+    padding-left: 1.2em;
 }
 
 code {
     font-family: 'JetBrains Mono', 'SF Mono', 'monospace';
 }
+
 
 /***************************************************************************
     Style for larger Displays
@@ -116,7 +138,7 @@ a {
 
 a {
     color: black;
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
     hr {
