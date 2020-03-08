@@ -1,5 +1,5 @@
 :root {
-    --dark-mode-gray:#19222A;
+    --dark-mode-gray: #19222A;
     --dark-blue: #003691;
     --light-blue: #3D84FF;
     --dark-red: rgb(126, 21, 44);
@@ -32,12 +32,13 @@ html {
 
 #page-title {
     text-align: center;
-	letter-spacing: .2em;
+    letter-spacing: .2em;
     font-weight: bold;
 }
 
 #content {
     margin: 8%;
+    margin-top: 0;
 }
 
 .jb-mono-font {
@@ -49,9 +50,10 @@ hr {
     border-top: 1px solid var(--hr-light-gray);
 }
 
-.folder>h1 {
+label>h1 {
     font-size: 3rem;
-    color: var(--light-blue)
+    color: var(--light-blue);
+    display: inline;
 }
 
 .folder>hr {
@@ -66,10 +68,12 @@ hr {
 .file * {
     width: 80%
 }
+
 .file pre {
     display: inline;
     white-space: pre-line;
 }
+
 .file ul {
     margin-left: 0;
     padding-left: 1.2em;
@@ -77,8 +81,27 @@ hr {
 
 code {
     font-family: 'JetBrains Mono', 'SF Mono', 'monospace';
+    background-color: var(--hr-dark-gray);
 }
 
+.hider-input {
+    display: none;
+}
+.folder {
+    display: none;
+}
+.folder::after {
+    content: "+";
+    position: fixed;
+    right: 0;
+}
+.hider-input:checked+.folder {
+    display: block;
+}
+
+.vert {
+    display: none;
+  }
 
 /***************************************************************************
     Style for larger Displays
@@ -93,11 +116,11 @@ code {
     Style for smaller Displays
 */
 @media only screen and (max-width: 600px) {
-	
-	html {
-		font-size: 13px;
-	}
-	
+
+    html {
+        font-size: 13px;
+    }
+
     #page-title {
         font-size: 13vw;
     }
@@ -136,17 +159,21 @@ a {
         color: black;
     }
 
-a {
-    color: black;
-    text-decoration: underline;
-}
+    a {
+        color: black;
+        text-decoration: underline;
+    }
 
     hr {
         border-color: var(--hr-dark-gray);
     }
-	
-	.folder>h1 {
-	    color: var(--dark-blue)
-	}
+
+    label>h1 {
+        color: var(--dark-blue);
+    }
+
+    code {
+        background-color: var(--hr-light-gray);
+    }
 
 }
