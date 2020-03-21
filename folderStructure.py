@@ -9,7 +9,6 @@ with open("webignore.txt") as f2:
     ignored += list(f2)
 ignored = [x.strip().lower() for x in ignored]
 
-
 def path_hierarchy(path):
     hierarchy = {
         'type': 'folder',

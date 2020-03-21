@@ -42,3 +42,11 @@ Deletes the private key, the public key however is not deleted</li>
 <li><code>gpg --delete-key &lt;keyid&gt;</code><br />
 Deletes the public key, if an own key shall be deleted, first delete the private key</li>
 </ul>
+<h2 id="test">Test</h2>
+<ul>
+<li><code>echo "test" | gpg --clearsign</code></li>
+<li>If this test fail, try to execute this line beforehand (and then add it to the shell's resource file):
+<ul>
+<li><code>export GPG_TTY=$(tty)</code></li>
+</ul></li>
+</ul>

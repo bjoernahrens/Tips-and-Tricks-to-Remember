@@ -1,6 +1,6 @@
 const createFileElement = (fileContent, folderName) => {
     let html = `<div class="file">`
-    html += fileContent;
+    html += Landmark.render(fileContent);
     html += `</div><br><hr><br>`
     document.getElementById(folderName).innerHTML += html;
 }
@@ -20,7 +20,7 @@ const createFolderContainer = (folderObject, parentFolderName) => {
     `
     document.getElementById("content").innerHTML += html;
     folderObject.children.forEach(file => {
-        if (file.type === '.html') {
+        if (file.type === '.md') {
             fetch(file.path)
                 .then(response => response.text())
                 .then(fileContent => createFileElement(fileContent, folderObject.name))
