@@ -37,3 +37,8 @@ The Key ID is the Text right after 4096R/...
 	Deletes the private key, the public key however is not deleted
 - ```gpg --delete-key <keyid>```  
 	Deletes the public key, if an own key shall be deleted, first delete the private key
+	
+## Test
+- ```echo "test" | gpg --clearsign```
+- If this test fail, try to execute this line beforehand (and then add it to the shell's resource file):
+	- ```export GPG_TTY=$(tty)```

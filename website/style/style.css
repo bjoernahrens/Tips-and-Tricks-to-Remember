@@ -8,9 +8,8 @@
     --light-hamburger-bar-gray: #bbbbbb;
 
     --hr-light-gray: rgb(237, 237, 237);
-    --hr-dark-gray: rgb(82, 82, 82);
+	--hr-dark-gray: rgb(82, 82, 82);
     --transparent: rgba(0, 0, 0, 0);
-
 }
 
 * {
