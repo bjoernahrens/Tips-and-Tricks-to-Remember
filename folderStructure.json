@@ -333,6 +333,11 @@
               "path": "./macOS/apps/BetterZIP, incl. QuickLook Extension.md"
             },
             {
+              "type": ".md",
+              "name": "Sensei \u2013 Performance Monitor.md",
+              "path": "./macOS/apps/Sensei \u2013 Performance Monitor.md"
+            },
+            {
               "type": ".html",
               "name": "Rocket \u2013 Slack-style Emoji picker.md.rendered.html",
               "path": "./macOS/apps/Rocket \u2013 Slack-style Emoji picker.md.rendered.html"
