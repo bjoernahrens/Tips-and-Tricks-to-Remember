@@ -1,0 +1,12 @@
+<h1 id="save-passphrase-for-ssh-in-keychain">Save passphrase for SSH in Keychain</h1>
+<p>If a <code>config</code> file does not exist yet, create a new one.</p>
+<p>Add this to the <code>config</code> file:</p>
+<p>For example, if you are trying to do this for GitHub:</p>
+<pre><code>Host github.com
+    IdentityFile ~/.ssh/your_github_cert_rsa
+    UseKeychain yes
+</code></pre>
+<p>If you want to enable it for every host, just add:</p>
+<pre><code>Host *
+    UseKeychain yes
+</code></pre>

@@ -318,6 +318,11 @@
               "path": "./macOS/apps/Keka \u2013 Unarchiver and Archiver for ZIP, 7Z, ect.md.rendered.html"
             },
             {
+              "type": ".html",
+              "name": "Sensei \u2013 Performance Monitor.md.rendered.html",
+              "path": "./macOS/apps/Sensei \u2013 Performance Monitor.md.rendered.html"
+            },
+            {
               "type": ".md",
               "name": "Itsycal \u2013 Tiny Calender in the Menu Bar.md",
               "path": "./macOS/apps/Itsycal \u2013 Tiny Calender in the Menu Bar.md"
@@ -599,6 +604,18 @@
               "path": "./iOS/apps/Apollo \u2013 Reddit Client.md.rendered.html"
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "SSH",
+      "path": "./SSH",
+      "children": [
+        {
+          "type": ".md",
+          "name": "Save passphrase in Keychain.md",
+          "path": "./SSH/Save passphrase in Keychain.md"
         }
       ]
     },
