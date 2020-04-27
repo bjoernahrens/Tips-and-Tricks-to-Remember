@@ -92,8 +92,8 @@
         },
         {
           "type": ".md",
-          "name": "Mouse.md",
-          "path": "./macOS/Mouse.md"
+          "name": "mouse.md",
+          "path": "./macOS/mouse.md"
         },
         {
           "type": ".html",
@@ -249,8 +249,8 @@
         },
         {
           "type": ".md",
-          "name": "Dock.md",
-          "path": "./macOS/Dock.md"
+          "name": "dock.md",
+          "path": "./macOS/dock.md"
         },
         {
           "type": ".html",
@@ -612,6 +612,11 @@
       "name": "SSH",
       "path": "./SSH",
       "children": [
+        {
+          "type": ".html",
+          "name": "Save passphrase in Keychain.md.rendered.html",
+          "path": "./SSH/Save passphrase in Keychain.md.rendered.html"
+        },
         {
           "type": ".md",
           "name": "Save passphrase in Keychain.md",
