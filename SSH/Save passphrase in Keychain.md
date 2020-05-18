@@ -1,22 +1,20 @@
 # Save passphrase for SSH in Keychain
-If a ```config``` file does not exist yet, create a new one.
+If a ```config``` file does not exist yet, create a new one (at ```~/.ssh/config```).
 
-Add this to the ```config``` file:
+Add one of the following to the ```config``` file:
 
+- For example, if you are trying to do this for GitHub:
 
-For example, if you are trying to do this for GitHub:
-
-```
-Host github.com
-    IdentityFile ~/.ssh/your_github_cert_rsa
-    UseKeychain yes
-```
-
-
-If you want to enable it for every host, just add:
+    ```
+    Host github.com
+        IdentityFile ~/.ssh/your_github_cert_rsa
+        UseKeychain yes
+    ```
 
 
-```
-Host *
-    UseKeychain yes
-```
+- If you want to enable it for every host, just add:
+
+    ```
+    Host *
+        UseKeychain yes
+    ```
