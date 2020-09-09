@@ -1,0 +1,17 @@
+---
+layout: default
+title: Collections
+permalink: /collections/
+---
+<h1>Collections</h1>
+
+<h2>macOS</h2>
+<ul>
+  {% for tip in site.macOS %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>
