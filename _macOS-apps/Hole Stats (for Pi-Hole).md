@@ -1,3 +1,7 @@
+---
+
+---
+
 # Hole Stats (for Pi-Hole)
 
 Follow up and manage the status of your Pi-hole with this simple macOS app that lives in your menu bar.

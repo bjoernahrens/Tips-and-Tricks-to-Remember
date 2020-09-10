@@ -1,3 +1,7 @@
+---
+
+---
+
 [SteadyMouse](https://www.steadymouse.com/)
 
 SteadyMouse is assistive software, designed from the ground up to be your fierce ally against Essential Tremor and the variants that often accompany Parkinson’s disease and Multiple Sclerosis.

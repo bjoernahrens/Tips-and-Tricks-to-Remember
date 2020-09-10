@@ -1,3 +1,7 @@
+---
+
+---
+
 # Suspicious Package
 
 > Preview the contents of a standard Apple installer package

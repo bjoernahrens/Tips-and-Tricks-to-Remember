@@ -1,3 +1,7 @@
+---
+
+---
+
 # QuickLookJSON
 
 > Preview JSON files

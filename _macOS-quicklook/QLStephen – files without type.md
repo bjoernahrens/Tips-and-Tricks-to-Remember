@@ -1,3 +1,7 @@
+---
+
+---
+
 # QLStephen
 
 > Preview plain text files without or with unknown file extension. Example: README, CHANGELOG, index.styl, etc.

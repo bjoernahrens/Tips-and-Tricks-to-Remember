@@ -1,3 +1,7 @@
+---
+
+---
+
 # Pock
 > Display macOS Dock in Touch Bar.
 
