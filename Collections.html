@@ -17,9 +17,19 @@ permalink: /collections/
 </ul>
 
 <h2>Apple Development</h2>
-{{site.Apple_Development}}
 <ul>
-  {% for tip in site.Apple\_Development %}
+  {% for tip in site.Apple_Development %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Jekyll</h2>
+<ul>
+  {% for tip in site.Jekyll %}
     <li>
       <p>{{ tip.content | markdownify }}</p>
 	  <hr/>
