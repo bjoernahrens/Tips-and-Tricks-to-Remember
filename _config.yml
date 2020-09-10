@@ -81,6 +81,9 @@ collections:
   zsh:
     output: true
     url: /:collection/:path
+  Jekyll:
+    output: true
+    url: /:collection/:path
   
 
 # Exclude from processing.
