@@ -1,3 +1,0 @@
-# Textastic
-> Code Editor
-
