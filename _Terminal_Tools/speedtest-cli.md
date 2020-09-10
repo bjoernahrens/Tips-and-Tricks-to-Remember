@@ -1,7 +1,15 @@
+---
+
+---
+
 # speedtest.net
 
 ### Install
-- ```brew install speedtest-cli```
+```shell
+brew install speedtest-cli
+```
 
 ### Use
-- ```speedtest```
+```shell
+speedtest
+```

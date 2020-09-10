@@ -1,3 +1,7 @@
+---
+
+---
+
 # QLColorCode
 
 > Preview source code files with syntax highlighting

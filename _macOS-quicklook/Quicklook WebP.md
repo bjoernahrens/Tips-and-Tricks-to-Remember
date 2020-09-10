@@ -1,3 +1,7 @@
+---
+
+---
+
 # WebP Quick Look
 
 > Preview WebP media

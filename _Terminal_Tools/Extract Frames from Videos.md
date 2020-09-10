@@ -1,6 +1,14 @@
+---
+
+---
+
 # How to extract a frame/frames from a video source in Terminal
 
-Example: ```ffmpeg -ss 124 -i input.mp4  -frames:v 1 output.bmp```
+Example:
+
+```shell
+ffmpeg -ss 124 -i input.mp4  -frames:v 1 output.bmp
+```
 
 - ```-i url (input)```  
 	input file url

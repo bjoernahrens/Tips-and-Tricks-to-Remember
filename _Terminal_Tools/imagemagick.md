@@ -1,7 +1,13 @@
+---
+
+---
+
 # imagemagick
 
 ### Install
-- ```brew install imagemagick```
+```shell
+brew install imagemagick
+```
 
 ### Use
 ```shell
