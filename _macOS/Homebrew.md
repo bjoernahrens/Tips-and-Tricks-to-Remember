@@ -31,3 +31,37 @@ A few examples:
 * youtube-dl
 * zsh-completions
 * zsh-syntax-highlighting
+
+## Search
+
+To search for formulae:  
+```shell
+brew search <name>
+```
+
+## Update & Upgrade
+To check if there are updates for your installed formulae:
+```shell
+brew update
+```
+
+Now, to upgrade those formulae:  
+```shell
+brew upgrade
+```
+
+Some casks can be upgraded via ```brew``` as well:  
+```shell
+brew upgrade --cask
+```
+## Show Dependencies
+
+```shell
+brew deps --tree --installed
+```
+
+## Uninstall
+Lastly, to uninstall a formulae or cask:  
+```shell
+brew uninstall <name>
+```
