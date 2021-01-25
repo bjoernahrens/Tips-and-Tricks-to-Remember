@@ -21,10 +21,9 @@
 title: Tips and Tricks to Remember
 description: >- # this means to ignore newlines until "baseurl:"
   An ever growing collection of very nice, but too easily forgettable tricks, collected by me
-baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
+baseurl: ""
+twitter_username: B3ARco
+github_username:  bjoernahrens
 
 # Build settings
 theme: minima
@@ -39,21 +38,6 @@ collections:
   Apple_Development:
     output: true
     url: /:collection/:path
-  Maven:
-    output: true
-    url: /:collection/:path
-  SQL:
-    output: true
-    url: /:collection/:path
-  SSH:
-    output: true
-    url: /:collection/:path
-  Terminal_Tools:
-    output: true
-    url: /:collection/:path
-  Web_Development:
-    output: true
-    url: /:collection/:path
   git:
     output: true
     url: /:collection/:path
@@ -61,6 +45,9 @@ collections:
     output: true
     url: /:collection/:path
   iOS-apps:
+    output: true
+    url: /:collection/:path
+  Jekyll:
     output: true
     url: /:collection/:path
   macOS:
@@ -75,13 +62,25 @@ collections:
   markdown:
     output: true
     url: /:collection/:path
+  Maven:
+    output: true
+    url: /:collection/:path
+  SQL:
+    output: true
+    url: /:collection/:path
+  SSH:
+    output: true
+    url: /:collection/:path
+  Terminal_Tools:
+    output: true
+    url: /:collection/:path
   watchOS:
     output: true
     url: /:collection/:path
-  zsh:
+  Web_Development:
     output: true
     url: /:collection/:path
-  Jekyll:
+  zsh:
     output: true
     url: /:collection/:path
   
