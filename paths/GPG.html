@@ -1,0 +1,16 @@
+---
+layout: default
+title: GPG
+permalink: /gpg/
+---
+
+<h2>GPG</h2>
+<ul>
+  {% for tip in site.gpg %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

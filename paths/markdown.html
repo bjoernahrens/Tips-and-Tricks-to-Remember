@@ -1,0 +1,16 @@
+---
+layout: default
+title: Markdown
+permalink: /markdown/
+---
+
+<h2>Markdown</h2>
+<ul>
+  {% for tip in site.markdown %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

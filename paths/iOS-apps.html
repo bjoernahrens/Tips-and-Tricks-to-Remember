@@ -1,0 +1,16 @@
+---
+layout: default
+title: iOS Apps
+permalink: /iOS-apps/
+---
+
+<h2>iOS Apps</h2>
+<ul>
+  {% for tip in site.iOS-apps %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

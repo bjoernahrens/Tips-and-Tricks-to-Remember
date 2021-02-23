@@ -1,0 +1,16 @@
+---
+layout: default
+title: Jekyll
+permalink: /jekyll/
+---
+
+<h2>Jekyll</h2>
+<ul>
+  {% for tip in site.Jekyll %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

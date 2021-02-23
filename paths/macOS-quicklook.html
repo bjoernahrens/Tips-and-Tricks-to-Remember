@@ -1,0 +1,16 @@
+---
+layout: default
+title: macOS Quicklook
+permalink: /macOS-quicklook/
+---
+
+<h2>{{title}}</h2>
+<ul>
+  {% for tip in site.macOS-quicklook %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Terminal Tools
+permalink: /terminal-tools/
+---
+
+<h2>Terminal Tools</h2>
+<ul>
+  {% for tip in site.Terminal_Tools %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

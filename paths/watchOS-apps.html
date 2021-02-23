@@ -1,0 +1,16 @@
+---
+layout: default
+title: watchOS Apps
+permalink: /watchOS-apps/
+---
+
+<h2>watchOS</h2>
+<ul>
+  {% for tip in site.watchOS %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

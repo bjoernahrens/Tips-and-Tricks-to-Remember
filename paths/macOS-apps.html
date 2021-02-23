@@ -1,0 +1,16 @@
+---
+layout: default
+title: macOS Apps
+permalink: /macOS-apps/
+---
+
+<h2>macOS Apps</h2>
+<ul>
+  {% for tip in site.macOS-apps %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

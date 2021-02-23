@@ -1,0 +1,16 @@
+---
+layout: default
+title: Git
+permalink: /git/
+---
+
+<h2>Git</h2>
+<ul>
+  {% for tip in site.git %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

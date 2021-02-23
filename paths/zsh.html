@@ -1,0 +1,16 @@
+---
+layout: default
+title: zsh
+permalink: /zsh/
+---
+
+<h2>zsh</h2>
+<ul>
+  {% for tip in site.zsh %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Web Development
+permalink: /web-dev/
+---
+
+<h2>Web Development</h2>
+<ul>
+  {% for tip in site.Web_Development %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

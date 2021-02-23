@@ -1,0 +1,15 @@
+---
+layout: default
+title: Apple Development
+permalink: /apple-dev/
+---
+
+<ul>
+    {% for tip in site.Apple_Development %}
+      <li>
+        <p>{{ tip.content | markdownify }}</p>
+        <hr/>
+        <hr/>
+      </li>
+    {% endfor %}
+  </ul>

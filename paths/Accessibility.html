@@ -1,0 +1,16 @@
+---
+layout: default
+title: Accessibility
+permalink: /accessibility/
+---
+
+<h2>Accessibility</h2>
+<ul>
+  {% for tip in site.Accessibility %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

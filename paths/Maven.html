@@ -1,0 +1,16 @@
+---
+layout: default
+title: Maven
+permalink: /maven/
+---
+
+<h2>Maven</h2>
+<ul>
+  {% for tip in site.Maven %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>
