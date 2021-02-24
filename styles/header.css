@@ -48,6 +48,12 @@ a.site-title {
 	}
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--title-color: purple;
+	}
+}
+
 a.site-title:hover {
 	text-decoration: none !important;
 }
