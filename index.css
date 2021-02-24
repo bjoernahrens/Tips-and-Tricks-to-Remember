@@ -5,8 +5,14 @@
     --link-border-color: black;
 }
 
+.collection-header {
+    font-family: 'JetBrains Mono';
+    font-weight: bolder;
+}
+
 .collection-content {
     display: block;
+    font-family: 'JetBrains Mono';
 }
 
 .collection-content>* {

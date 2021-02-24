@@ -7,7 +7,7 @@ layout: home
 
 <link rel="stylesheet" href="index.css">
 
-<h1>The Collection</h1>
+<h1 class="collection-header">The Collection</h1>
 
 <div class="collection-content">
     <a href="/accessibility">Accessibility</a>
