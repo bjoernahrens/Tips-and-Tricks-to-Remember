@@ -1,0 +1,7 @@
+:root {
+    --soft-red: #ff335c;
+}
+
+ul.social-media-list {
+    color: var(--soft-red) !important;
+}

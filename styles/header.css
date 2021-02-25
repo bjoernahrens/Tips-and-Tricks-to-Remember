@@ -50,7 +50,7 @@ a.site-title {
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--title-color: purple;
+		--title-color: #ff335c; /* Soft Red */
 	}
 }
 
