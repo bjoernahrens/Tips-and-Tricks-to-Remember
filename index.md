@@ -43,4 +43,7 @@ layout: home
     <a href="/web-dev">Web Development</a>
     <br/>
     <a href="/zsh">zsh</a>
+    <br/>
+    <br/>
+    <a href="/random">Random</a>
 </div>

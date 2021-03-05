@@ -84,6 +84,9 @@ collections:
   zsh:
     output: true
     url: /:collection/:path
+  Random:
+    output: true
+    url: /:collection/:path
   
 
 # Exclude from processing.

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Random
+permalink: /random/
+---
+
+<h2>Random</h2>
+<ul>
+  {% for random in site.Random %}
+    <li>
+      <p>{{ random.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>
