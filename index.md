@@ -32,6 +32,8 @@ layout: home
     <br/>
     <a href="/maven">Maven</a>
     <br/>
+    <a href="/python">Python</a>
+    <br/>
     <a href="/sql">SQL</a>
     <br/>
     <a href="/ssh">SSH</a>
