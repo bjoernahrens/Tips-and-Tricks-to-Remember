@@ -1,0 +1,16 @@
+---
+layout: default
+title: Python
+permalink: /python/
+---
+
+<h2>Python</h2>
+<ul>
+  {% for tip in site.Python %}
+    <li>
+      <p>{{ tip.content | markdownify }}</p>
+	  <hr/>
+	  <hr/>
+    </li>
+  {% endfor %}
+</ul>

@@ -66,6 +66,9 @@ collections:
   Maven:
     output: true
     url: /:collection/:path
+  Python:
+    output: true
+    url: /:collection/:path
   SQL:
     output: true
     url: /:collection/:path
