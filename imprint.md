@@ -9,7 +9,7 @@ Diese Website nutzt _keine_ Cookies. // This website does _not_ use cookies.
 
 ---
 
-__Diese Website dient ausschließlich privater Zwecke.__
+__Diese Website dient ausschließlich privater Zwecke. Es werden keine journalistisch-redaktionellen Beiträge bereitgestellt. Außerdem wird keine Werbung gezeigt und es werden keine Affiliate-Links verwendet.__
 
 __Sie ist daher von der Impressumspflicht ausgenommen.__
 
