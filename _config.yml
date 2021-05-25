@@ -33,6 +33,9 @@ plugins:
 
 
 collections:
+  setup-guide:
+    output: true
+    url: /:collection/:path
   Accessibility:
     output: true
     url: /:collection/:path
