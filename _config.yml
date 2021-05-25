@@ -34,45 +34,26 @@ plugins:
 
 collections:
   setup-guide:
-    output: true
   Accessibility:
-    output: true
   Apple_Development:
-    output: true
   git:
-    output: true
   gpg:
-    output: true
   iOS-apps:
-    output: true
   Jekyll:
-    output: true
   macOS:
-    output: true
   macOS-apps:
-    output: true
   macOS-quicklook:
-    output: true
   markdown:
-    output: true
   Maven:
-    output: true
   Python:
-    output: true
   SQL:
-    output: true
   SSH:
-    output: true
   Terminal_Tools:
-    output: true
   watchOS:
-    output: true
   Web_Development:
-    output: true
   zsh:
-    output: true
   Random:
-    output: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
