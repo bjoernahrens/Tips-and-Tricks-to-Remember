@@ -14,5 +14,5 @@
 - To override the setting:
 	
 	```shell
-	defaults write -g com.apple.mouse.scaling 8.0
+	defaults write -g com.apple.mouse.scaling 12.0
 	```

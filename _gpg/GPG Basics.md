@@ -60,16 +60,16 @@ The Key ID is the Text right after ```4096R/...```
 	```
 	
 - This deletes the public key, if an own key shall be deleted, first delete the private key  
-```shell
-gpg --delete-key <keyid>
-```  
+	```shell
+	gpg --delete-key <keyid>
+	```
 	
 	
 ## Test
 - ```shell
-echo "test" | gpg --clearsign
-```
+  echo "test" | gpg --clearsign
+  ```
 - If this test fail, try to execute this line beforehand (and then add it to the shell's resource file):
-```shell
-export GPG_TTY=$(tty)
-```
+  ```shell
+  export GPG_TTY=$(tty)
+  ```
