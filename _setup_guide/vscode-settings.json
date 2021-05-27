@@ -1,0 +1,24 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 75,
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.copyOnSelection": true,
+  "files.autoSave": "onFocusChange",
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "SynthWave '84",
+
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "prettier.proseWrap": "always",
+  "prettier.tabWidth": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.startupEditor": "none"
+  //
+}
