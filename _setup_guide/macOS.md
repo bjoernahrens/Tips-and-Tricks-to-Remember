@@ -33,3 +33,6 @@ brew install zsh-syntax-highlighting
 # Zsh Syntax Highlighting (Needs to be placed at the very end of this file to include everything)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
+
+
+## Finder sidebar
