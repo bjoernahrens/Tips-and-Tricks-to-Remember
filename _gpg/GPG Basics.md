@@ -47,11 +47,14 @@ The Key ID is the Text right after ```4096R/...```
 	```
 
 ## Import
-- 	```shell
-	gpg --import <keyfile>.gpg
+- 	To import a public key:
+	```shell
+	gpg --import <public_key>.gpg
 	```  
-	(or ```.txt```)
-	the keyfile can be in txt and contain the public key
+-	To import a private key:
+	```shell
+	gpg --import --batch <private_key>.gpg
+	```  
 
 ## Delete Keys
 -	This deletes the private key, the public key however is not deleted
@@ -59,7 +62,7 @@ The Key ID is the Text right after ```4096R/...```
 	gpg --delete-secret-key <keyid>
 	```
 	
-- This deletes the public key, if an own key shall be deleted, first delete the private key  
+-	This deletes the public key. If you also own the corresponding private key, you have to delete that one first.
 	```shell
 	gpg --delete-key <keyid>
 	```
