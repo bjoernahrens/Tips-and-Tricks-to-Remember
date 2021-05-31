@@ -1,3 +1,7 @@
+---
+
+---
+
 # Powerlevel10k
 
 > Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
