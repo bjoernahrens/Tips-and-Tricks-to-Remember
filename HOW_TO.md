@@ -18,11 +18,11 @@ bundle install
     ```html
     ---
     layout: default
-    title: Something new goes here
+    title: The New Section
     permalink: /new-section/
     ---
 
-    <h2>Something new goes here</h2>
+    <h2>The New Section</h2>
     <ul>
     {% for tip in site.new_section %}
     <li>
@@ -33,9 +33,9 @@ bundle install
     {% endfor %}
     </ul>
     ```
-4. Add the link to `index.html`:
+4. Add the link to `index.md`:
     ```html
-    <a href="/new-section">My setup guide for new Mac</a>
+    <a href="/new-section">New Section</a>
     <br/>
     ```
 
