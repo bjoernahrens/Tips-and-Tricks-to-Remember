@@ -2,7 +2,8 @@
 
 ## Update Gems
 ```sh
-gem install --system
+gem update
+gem update --system
 ```
 
 (If the version of bundler has changed, you may have to delete the `Gemfile.lock`)
