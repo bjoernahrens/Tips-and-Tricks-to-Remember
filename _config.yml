@@ -39,6 +39,7 @@ collections:
   Flutter:
   git:
   gpg:
+  Homebrew:
   iOS-apps:
   Jekyll:
   macOS:

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Homebrew
+permalink: /homebrew/
+---
+
+<h2>Homebrew</h2>
+<ul>
+  {% for tip in site.Homebrew %}
+  <li>
+    <p>{{ tip.content | markdownify }}</p>
+    <hr />
+    <hr />
+  </li>
+  {% endfor %}
+</ul>

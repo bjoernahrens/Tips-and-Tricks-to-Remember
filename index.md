@@ -22,6 +22,8 @@ layout: home
     <br/>
     <a href="/gpg">GPG</a>
     <br/>
+    <a href="/homebrew">Homebrew</a>
+    <br/>
     <a href="/iOS-apps">iOS apps</a>
     <br/>
     <a href="/jekyll">Jekyll</a>
