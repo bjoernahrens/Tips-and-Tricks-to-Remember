@@ -1,5 +1,4 @@
 ---
-
 ---
 
 # macOS
@@ -23,16 +22,15 @@ brew upgrade
 brew install --cask iterm2
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ## Oh My Zsh
-brew install zsh-syntax-highlighting
 ```
 
 ### Add to `.zshrc`
+
 ```
 #################################################################################################
 #################################################################################################
 # Zsh Syntax Highlighting (Needs to be placed at the very end of this file to include everything)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
-
 
 ## Finder sidebar
