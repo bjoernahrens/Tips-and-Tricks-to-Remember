@@ -4,9 +4,9 @@ cd ~/development
 git clone https://github.com/flutter/flutter.git -b stable
 
 ### Manual
-echo "Add the following lines to your '.zshrc' and change <user> to your local user"
+echo "Add the following lines to your '.zshrc'"
 echo '
-export PATH="$PATH:/Users/<user>/development/flutter/bin"
+export PATH="$PATH":"$HOME/development/flutter/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 alias fpg="flutter pub get"
 '
