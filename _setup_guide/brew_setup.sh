@@ -3,23 +3,18 @@ brew update
 brew upgrade
 
 brew tap homebrew/cask-fonts
-brew install --cask font-jetbrains-mono
 
 brew install \
     git \
     go \
     nvm \
-    cloc \
     youtube-dl \
     thefuck \
-    openjdk \
-    gradle \
     htop \
-    imagemagick \
-    zsh-syntax-highlighting
-
+    imagemagick
 
 brew install --cask \
+    font-jetbrains-mono \
     iterm2 \
     textmate \
     visual-studio-code \
@@ -33,4 +28,5 @@ brew install --cask \
     suspicious-package \
     adobe-acrobat-reader \
     android-platform-tools \
-    asset-catalog-tinkerer
+    asset-catalog-tinkerer \
+    rectangle
