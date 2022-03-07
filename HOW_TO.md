@@ -1,5 +1,11 @@
 # How To
 
+## Update Dependencies
+
+```sh
+bundle update
+```
+
 ## Update Gems
 
 ```sh
@@ -7,8 +13,8 @@ gem update
 gem update --system
 ```
 
-(If the version of bundler has changed, you may have to delete the
-`Gemfile.lock`)
+If the version of bundler has changed, you may have to delete the
+`Gemfile.lock` and regenerate it:
 
 ```sh
 bundle install
