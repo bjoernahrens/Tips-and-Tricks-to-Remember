@@ -10,7 +10,7 @@ NOTE: this is already covered by `qlImageSize`, so this plugin is listed here on
 
 Run 
 
-```shell
+```sh
 brew cask install webpquicklook
 ```
 

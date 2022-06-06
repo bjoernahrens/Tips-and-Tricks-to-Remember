@@ -1,7 +1,6 @@
 ---
+subtitle: Rectangle
 ---
-
-# Rectangle
 
 > Rectangle is a window management app based on Spectacle, written in Swift.
 

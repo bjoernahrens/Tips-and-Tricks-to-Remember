@@ -1,10 +1,10 @@
 ---
+subtitle: Search
+order: 1
 ---
-
-## Search
 
 To search for formulae or casks:
 
-```shell
+```sh
 brew search <search term>
 ```

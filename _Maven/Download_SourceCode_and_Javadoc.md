@@ -1,9 +1,7 @@
 ---
-
+subtitle: Download Source Code and Javadoc
 ---
 
-# Download Source Code and Javadoc
-
-```shell
+```sh
 mvn dependency:sources dependency:resolve -Dclassifier=javadoc
 ```

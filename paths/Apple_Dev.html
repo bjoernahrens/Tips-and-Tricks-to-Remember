@@ -1,15 +1,12 @@
 ---
-layout: default
+layout: tips
 title: Apple Development
 permalink: /apple-dev/
 ---
-<h2>Apple Development</h2>
-<ul>
-    {% for tip in site.Apple_Development %}
-      <li>
-        <p>{{ tip.content | markdownify }}</p>
-        <hr/>
-        <hr/>
-      </li>
-    {% endfor %}
-  </ul>
+
+{% assign tips = site.Apple_Development | sort: 'order' %}
+<!-- -->
+{% for tip in tips %}
+<h2 class="subtitle">{{ tip.subtitle }}</h2>
+<div class="entry">{{ tip.content | markdownify }}</div>
+{% endfor %}

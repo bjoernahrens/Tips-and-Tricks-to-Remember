@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: tips
 title: Web Development
 permalink: /web-dev/
 ---
 
-<h2>Web Development</h2>
-<ul>
-  {% for tip in site.Web_Development %}
-    <li>
-      <p>{{ tip.content | markdownify }}</p>
-	  <hr/>
-	  <hr/>
-    </li>
-  {% endfor %}
-</ul>
+{% assign tips = site.Web_Development | sort: 'order' %}
+<!-- -->
+{% for tip in tips %}
+<h2 class="subtitle">{{ tip.subtitle }}</h2>
+<div class="entry">{{ tip.content | markdownify }}</div>
+{% endfor %}

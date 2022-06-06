@@ -1,19 +1,18 @@
 ---
-
+subtitle: Code
 ---
 
-## Code:  
-Using three ` symbols before and after the code snipet for inline code.  
-```` ``` code goes here ``` ````
-
+Use the `` ` `` symbol before and after the code snipet for inline code.  
+` ``` code goes here ``` `
 
 ````
-```shell
+```sh
 code goes here
 ```
 ````
 
 To escape, simply use four (or more) back ticks:
+
 `````
 ````
 ```

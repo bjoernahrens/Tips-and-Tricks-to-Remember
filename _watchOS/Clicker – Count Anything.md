@@ -1,8 +1,6 @@
 ---
-
+subtitle: Clicker
 ---
-
-# Clicker
 
 _by the Iconfactory_
 
@@ -10,27 +8,24 @@ _by the Iconfactory_
 
 Count anything on your watch:
 
-* Laps while exercising
+- Laps while exercising
 
-* Days since you quit smoking
+- Days since you quit smoking
 
-* Number of people in your club
+- Number of people in your club
 
-* How much weight you've lost
+- How much weight you've lost
 
-* Sheep
-
+- Sheep
 
 Tapping anywhere on your watch face adds to your counter and gives you haptic feedback. You don't have to stare at your wrist while counting!
 
-
 Includes a watch complication that lets you easily check and access the counter.
 
-
 To decrement or clear the counter, force press on your watch face.
-
 
 Records up to 2,147,483,647 taps. Knock yourself out.
 
 ## Download
+
 [Available for free](https://apps.apple.com/app/clicker-count-anything/id1043951998)

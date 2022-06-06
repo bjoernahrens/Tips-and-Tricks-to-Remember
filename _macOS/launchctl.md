@@ -1,8 +1,8 @@
 ---
-Title: launchctl -- Interfaces with launchd
+subtitle: launchctl — Interfaces with launchd
 ---
 
-# launchctl -- Interfaces with launchd
+# launchctl — Interfaces with launchd
 
 launchctl interfaces with launchd to manage and inspect daemons, agents and XPC services.
 

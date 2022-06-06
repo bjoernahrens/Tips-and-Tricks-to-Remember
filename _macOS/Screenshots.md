@@ -1,12 +1,9 @@
 ---
-
+subtitle: Screenshots
 ---
-
-
-# Screenshots
 
 ## Disable Shadow in Screenshots
 
-```shell
+```sh
 defaults write com.apple.screencapture disable-shadow -bool TRUE; killall SystemUIServer
 ```

@@ -1,15 +1,15 @@
 ---
-
+subtitle: speedtest.net
 ---
 
-# speedtest.net
-
 ### Install
-```shell
+
+```sh
 brew install speedtest-cli
 ```
 
 ### Use
-```shell
+
+```sh
 speedtest
 ```

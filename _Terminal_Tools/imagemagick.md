@@ -1,15 +1,15 @@
 ---
-
+subtitle: imagemagick
 ---
 
-# imagemagick
+## Install
 
-### Install
-```shell
+```sh
 brew install imagemagick
 ```
 
-### Use
-```shell
+## Use
+
+```sh
 convert <input-file> <output-file>
 ```

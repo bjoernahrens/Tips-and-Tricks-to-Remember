@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: tips
 title: Flutter
 permalink: /Flutter/
 ---
 
-<h2>Flutter</h2>
-<ul>
-  {% for tip in site.Flutter %}
-  <li>
-    <p>{{ tip.content | markdownify }}</p>
-    <hr />
-    <hr />
-  </li>
-  {% endfor %}
-</ul>
+{% assign tips = site.Flutter | sort: 'order' %}
+<!-- -->
+{% for tip in tips %}
+<h2 class="subtitle">{{ tip.subtitle }}</h2>
+<div class="entry">{{ tip.content | markdownify }}</div>
+{% endfor %}

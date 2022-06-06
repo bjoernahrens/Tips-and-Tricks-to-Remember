@@ -1,6 +1,3 @@
 ---
-Title: Hexer
+subtitle: Hexer
 ---
-
-# Hexer
-

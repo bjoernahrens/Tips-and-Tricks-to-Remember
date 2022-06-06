@@ -1,6 +1,5 @@
 ---
-
+subtitle: Apollo
 ---
 
-# Apollo
-
+> **The** Reddit Client

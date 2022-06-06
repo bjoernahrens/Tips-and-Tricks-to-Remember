@@ -1,7 +1,6 @@
 ---
+subtitle: SwiftFormat
 ---
-
-# SwiftFormat
 
 > A command-line tool and Xcode Extension for formatting Swift code
 

@@ -1,7 +1,5 @@
 ---
-
+subtitle: Working Copy
 ---
 
-# Working Copy
 > Git Client
-

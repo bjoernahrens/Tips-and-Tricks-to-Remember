@@ -1,8 +1,7 @@
 ---
 order: 1
+subtitle: Basic GPG
 ---
-
-# Basic GPG
 
 ## Install
 

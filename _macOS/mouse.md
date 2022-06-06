@@ -1,18 +1,17 @@
 ---
-
+subtitle: Mouse Settings
 ---
 
-# Mouse Settings
-
 ## Set Mouse Speed
+
 - To read the current setting:
 
-	```shell
-	defaults read -g com.apple.mouse.scaling
-	```
-	
+  ```sh
+  defaults read -g com.apple.mouse.scaling
+  ```
+
 - To override the setting:
-	
-	```shell
-	defaults write -g com.apple.mouse.scaling 12.0
-	```
+
+  ```sh
+  defaults write -g com.apple.mouse.scaling 12.0
+  ```

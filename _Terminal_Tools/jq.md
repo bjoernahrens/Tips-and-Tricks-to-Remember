@@ -1,7 +1,6 @@
 ---
+subtitle: jq — Command-line JSON processor
 ---
-
-# `jq` — Command-line JSON processor
 
 jq can transform JSON in various ways, by selecting, iterating, reducing
 and otherwise mangling JSON documents.

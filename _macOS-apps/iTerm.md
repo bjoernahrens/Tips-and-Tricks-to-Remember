@@ -1,4 +1,6 @@
-# iTerm 2
+---
+subtitle: iTerm 2
+---
 
 > A better Terminal app
 
@@ -6,5 +8,5 @@
 
 1. `General -> Selection -> Enable 'Copy ... on selection'`
 1. `Appearance -> General -> Theme -> Choose 'Minimal'`
-2. `Appearance -> Dimming -> Enable all`
-2. `Profiles -> Keys -> Presets -> Choose 'Natural Text Editing' `
+1. `Appearance -> Dimming -> Enable all`
+1. `Profiles -> Keys -> Presets -> Choose 'Natural Text Editing' `

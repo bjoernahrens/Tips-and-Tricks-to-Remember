@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: tips
 title: iOS Apps
 permalink: /iOS-apps/
 ---
 
-<h2>iOS Apps</h2>
-<ul>
-  {% for tip in site.iOS-apps %}
-    <li>
-      <p>{{ tip.content | markdownify }}</p>
-	  <hr/>
-	  <hr/>
-    </li>
-  {% endfor %}
-</ul>
+{% assign tips = site.iOS-apps | sort: 'order' %}
+<!-- -->
+{% for tip in tips %}
+<h2 class="subtitle">{{ tip.subtitle }}</h2>
+<div class="entry">{{ tip.content | markdownify }}</div>
+{% endfor %}

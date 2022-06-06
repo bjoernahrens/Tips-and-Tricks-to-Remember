@@ -1,7 +1,7 @@
 ---
+subtitle: Oh My Zsh!
+order: 0
 ---
-
-# oh-my-zsh
 
 > **_Unleash_ your terminal like never before.**  
 > Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...  
@@ -15,6 +15,24 @@
 
 ```zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### CLI tool
+
+```sh
+Usage: omz <command> [options]
+
+Available commands:
+
+  help                Print this help message
+  changelog           Print the changelog
+  plugin <command>    Manage plugins
+  pr     <command>    Manage Oh My Zsh Pull Requests
+  reload              Reload the current zsh session
+  theme  <command>    Manage themes
+  update              Update Oh My Zsh
+  version             Show the version
+
 ```
 
 ### Update all custom plugins/themes

@@ -1,16 +1,14 @@
 ---
-
+subtitle: Units
 ---
 
-# Units
-
-- Huge tool for unit conversion  
-- Download from https://www.gnu.org/software/units/  
-- How to install/upgrade &rarr; see ```INSTALL``` file  
+- Huge tool for unit conversion
+- Download from https://www.gnu.org/software/units/
+- How to install/upgrade &rarr; see `INSTALL` file
 
 In short:
 
-```shell
+```sh
 cd <directory>
 ./configure
 make

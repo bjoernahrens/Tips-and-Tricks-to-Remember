@@ -1,8 +1,7 @@
 ---
 order: 0
+subtitle: How to set up GPG on macOS
 ---
-
-# How to set up GPG on macOS
 
 [Check this Gist by troyfontaine](https://gist.github.com/troyfontaine/18c9146295168ee9ca2b30c00bd1b41e).
 
@@ -23,6 +22,7 @@ returns some kind of error, try one of the following
 ```zsh
 gpgconf --kill gpg-agent
 ```
+
 ```sh
 export GPG_TTY=$(tty)
 # If this solves the issue, add it to your .zshrc file

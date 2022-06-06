@@ -1,16 +1,17 @@
 ---
+subtitle: Various Terminal Tools
 ---
-
-# Various Terminal Tools
 
 ## `tr` — translate characters
 
-```
-"Heeeello" -> tr -s "e" -> "Hello"
+```sh
+echo "Heeeello" | tr -s "e"
+# prints: "Hello"
 ```
 
-```
-"  He ll o " -> tr -d " " -> "Hello"
+```sh
+echo "  He ll o " | tr -d " "
+# prints: "Hello"
 ```
 
 ## `xargs` — construct argument list(s) and execute utility

@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: tips
 title: Random
 permalink: /random/
 ---
 
-<h2>Random</h2>
-<ul>
-  {% for random in site.Random %}
-    <li>
-      <p>{{ random.content | markdownify }}</p>
-	  <hr/>
-	  <hr/>
-    </li>
-  {% endfor %}
-</ul>
+{% assign tips = site.Random | sort: 'order' %}
+<!-- -->
+{% for tip in tips %}
+<h2 class="subtitle">{{ tip.subtitle }}</h2>
+<div class="entry">{{ tip.content | markdownify }}</div>
+{% endfor %}

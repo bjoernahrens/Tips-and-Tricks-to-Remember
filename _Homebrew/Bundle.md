@@ -1,7 +1,7 @@
 ---
+subtitle: Bundle
+order: 1
 ---
-
-## Bundle
 
 Create a file to save or backup your current brew setup and import it on a new
 system.

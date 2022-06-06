@@ -1,4 +1,6 @@
 ---
+subtitle: Examples
+order: 1
 ---
 
 Find available formulae at [formulae.brew.sh/](https://formulae.brew.sh/)

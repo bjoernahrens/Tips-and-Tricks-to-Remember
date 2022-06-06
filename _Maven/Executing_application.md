@@ -1,8 +1,6 @@
 ---
-
+subtitle: Executing the application
 ---
-
-# Executing the application
 
 1. Add the following to the ```pom.xml```:  
 	(Add the correct Class containing the main() method to the mainClass tag)   
@@ -24,6 +22,6 @@
 
 2. If the application was packaged/installed using a profile, the profile has to be used as well for execution. Otherwise it will use the default profile. Use the execution command:    
     
-    ```shell
+    ```sh
     mvn exec:java -P profileName
     ```

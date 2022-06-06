@@ -37,7 +37,7 @@ bundle install
 
    ```html
    ---
-   layout: default
+   layout: tips
    title: The New Section
    permalink: /new-section/
    ---

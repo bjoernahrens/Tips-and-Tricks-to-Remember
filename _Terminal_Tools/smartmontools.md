@@ -1,15 +1,15 @@
 ---
-
+subtitle: smartmontools
 ---
 
-# smartmontools
-
 ### Install
-```shell
+
+```sh
 brew install smartmontools
 ```
 
 ### Use
-```shell
+
+```sh
 smartctl -a disk0
 ```

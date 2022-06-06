@@ -1,4 +1,6 @@
 ---
+subtitle: Install and Uninstalling formulae or casks
+order: 1
 ---
 
 ## Install
@@ -19,6 +21,6 @@ brew install --cask <name>
 
 To uninstall a formulae or cask:
 
-```shell
+```sh
 brew uninstall <name>
 ```

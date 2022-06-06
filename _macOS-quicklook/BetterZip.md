@@ -10,7 +10,7 @@
 
 Run 
 
-```shell
+```sh
 brew cask install betterzip
 ```
 

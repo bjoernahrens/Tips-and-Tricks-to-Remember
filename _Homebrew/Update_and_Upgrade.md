@@ -1,23 +1,23 @@
 ---
+subtitle: Update & Upgrade
+order: 1
 ---
-
-## Update & Upgrade
 
 To check if there are updates for your installed formulae:
 
-```shell
+```sh
 brew update
 ```
 
 Now, to upgrade those formulae:
 
-```shell
+```sh
 brew upgrade
 ```
 
 Some casks can be upgraded via `brew` as well:
 
-```shell
+```sh
 brew upgrade --cask
 ```
 

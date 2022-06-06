@@ -1,7 +1,6 @@
 ---
+subtitle: direnv
 ---
-
-# direnv
 
 > unclutter your .profile
 

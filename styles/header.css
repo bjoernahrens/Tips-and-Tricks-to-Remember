@@ -1,79 +1,84 @@
 :root {
-	--title-color: #000280;
+  --title-color: #000280;
 }
 
 @font-face {
-	font-family: 'JetBrains Mono', 'SF Mono', 'Courier Prime', 'Courier New', Courier, monospace;
-	src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
-		url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "JetBrains Mono", "SF Mono", "Courier Prime", "Courier New",
+    Courier, monospace;
+  src: url("https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2")
+      format("woff2"),
+    url("https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 a.site-title {
-	color: var(--title-color) !important;
-	letter-spacing: 0px;
-	white-space: nowrap;
-	font-size: 1.2em;
+  font-weight: 600;
+  color: var(--title-color) !important;
+  letter-spacing: 0px;
+  white-space: nowrap;
+  font-size: 1.2em;
 
-	position: absolute !important;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-	font-feature-settings: "liga"on, "calt"on;
-	-webkit-font-feature-settings: "liga"on, "calt"on;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	font-family: 'JetBrains Mono', 'SF Mono', 'Courier Prime', 'Courier New', Courier, monospace;
+  font-feature-settings: "liga" on, "calt" on;
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "JetBrains Mono", "SF Mono", "Courier Prime", "Courier New",
+    Courier, monospace;
 }
 
 @media screen and (max-width: 350px) {
-	a.site-title {
-		font-size: 1em;
-		white-space: normal;
-		line-height: 100%;
-	}
+  a.site-title {
+    font-size: 1em;
+    white-space: normal;
+    line-height: 100%;
+  }
 }
 
 @media screen and (min-width: 500px) {
-	a.site-title {
-		font-size: 1.5em;
-	}
+  a.site-title {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (min-width: 700px) {
-	a.site-title {
-		font-size: 2em;
-	}
+  a.site-title {
+    font-size: 2em;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--title-color: #ff335c; /* Soft Red */
-	}
+  :root {
+    --title-color: #ff335c; /* Soft Red */
+  }
 }
 
 a.site-title:hover {
-	text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 a.site-title:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	right: 0;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
 
-	width: 0%;
-	height: 100%;
+  width: 0%;
+  height: 100%;
 
-	border-bottom: 2px solid var(--title-color) !important;
+  border-bottom: 2px solid var(--title-color) !important;
 
-	transition: width 0.3s ease !important;
+  transition: width 0.3s ease !important;
 }
 
 a.site-title:hover:after {
-	left: 0;
-	width: 100%;
-	transition: width .3s ease;
+  left: 0;
+  width: 100%;
+  transition: width 0.3s ease;
 }

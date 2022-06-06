@@ -8,7 +8,7 @@
 
 Run 
 
-```shell
+```sh
 brew cask install qlimagesize
 ```
 

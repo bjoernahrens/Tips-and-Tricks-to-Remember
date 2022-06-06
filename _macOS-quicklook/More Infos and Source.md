@@ -18,13 +18,13 @@ To get plugins working in Catalina, you will need to remove the quarantine attri
 
 Run this to see the attributes:
 
-```shell
+```sh
 xattr -r ~/Library/QuickLook
 ```
 
 And run this to remove the attributes:
 
-```shell
+```sh
 xattr -d -r com.apple.quarantine ~/Library/QuickLook
 ```
 

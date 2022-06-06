@@ -1,9 +1,7 @@
 ---
-
+subtitle: Serve Locally
 ---
 
-## Serve Your Jekyll Project Locally
-
-```shell
+```sh
 bundle exec jekyll serve
 ```

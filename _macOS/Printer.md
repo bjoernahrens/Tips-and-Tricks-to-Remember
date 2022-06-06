@@ -1,11 +1,10 @@
 ---
-
+subtitle: Printer
 ---
 
-# Printer
 
 ## Automatically show expanded view of print dialog (requires reboot)
 
-```shell
+```sh
 defaults write -g PMPrintingExpandedStateForPrint -bool TRUE
 ```

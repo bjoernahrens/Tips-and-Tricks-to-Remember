@@ -1,13 +1,9 @@
 ---
-
+subtitle: Finder Proxy Icon
 ---
-
-# Finder Proxy Icon
-### only on macOS 11 Big Sur
-
 
 Make the folder icon in Finder appear immediately on hover:
 
-```bash
+```sh
 defaults write -g NSToolbarTitleViewRolloverDelay -float 0
 ```

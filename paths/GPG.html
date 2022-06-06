@@ -1,18 +1,12 @@
 ---
-layout: default
+layout: tips
 title: GPG
 permalink: /gpg/
 ---
 
-{% assign gpg = site.gpg | sort: 'order' %}
-
-<h2>GPG</h2>
-<ul>
-  {% for tip in gpg %}
-  <li>
-    <p>{{ tip.content | markdownify }}</p>
-    <hr />
-    <hr />
-  </li>
-  {% endfor %}
-</ul>
+{% assign tips = site.gpg | sort: 'order' %}
+<!-- -->
+{% for tip in tips %}
+<h2 class="subtitle">{{ tip.subtitle }}</h2>
+<div class="entry">{{ tip.content | markdownify }}</div>
+{% endfor %}

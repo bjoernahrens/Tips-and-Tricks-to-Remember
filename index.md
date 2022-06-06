@@ -7,8 +7,6 @@ layout: home
 <h1 class="collection-header">The Collection</h1>
 
 <div class="collection-content">
-    <a href="/setup-guide">My setup guide for new Mac</a>
-    <br/>
     <a href="/accessibility">Accessibility</a>
     <br/>
     <a href="/apple-dev">Apple Development</a>
