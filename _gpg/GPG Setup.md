@@ -1,4 +1,5 @@
 ---
+order: 0
 ---
 
 # How to set up GPG on macOS
