@@ -1,19 +1,13 @@
 ---
-
 ---
 
 # How to set up GPG on macOS
 
-[Gist by troyfontaine](https://gist.github.com/troyfontaine/18c9146295168ee9ca2b30c00bd1b41e)
+[Check this Gist by troyfontaine](https://gist.github.com/troyfontaine/18c9146295168ee9ca2b30c00bd1b41e).
 
-but instead of `echo 'pinentry-program $(brew --prefix)/bin/pinentry-mac'`, use:
+It does an pretty great job describing what needs to be done.
 
-```zsh
-echo 'pinentry-program '$(brew --prefix)'/bin/pinentry-mac'
-```
-
-(so that `brew --prefix` gets executed beforehand and the path is directly saved into the file)
-
+(There's no need to install `gpg2` via Homebrew. In fact, it is only an alias for `gnugp`.)
 
 ### Possible issues and how to fix them
 
@@ -28,7 +22,7 @@ returns some kind of error, try one of the following
 ```zsh
 gpgconf --kill gpg-agent
 ```
-
-```zsh
-killall gpg-agent && gpg-agent --daemon --pinentry-program /usr/local/bin/pinentry
+```sh
+export GPG_TTY=$(tty)
+# If this solves the issue, add it to your .zshrc file
 ```
