@@ -10,9 +10,13 @@ python -m pip
 
 ```sh
 pipupgradeall() {
-	pip list --outdated --format=freeze \
-	| grep -v '^\-e' \
-	| cut -d = -f 1 \
+	pip --version
+	pip list --outdated
+	if [ $(pip list --outdated --format json | jq '. | any(.name | contains ("pip"))') = "true" ]; then
+		pip install -U pip
+	fi
+	pip list --outdated --format=json \
+	| jq '.[].name' \
 	| xargs -n1 pip install -U
 }
 ```
