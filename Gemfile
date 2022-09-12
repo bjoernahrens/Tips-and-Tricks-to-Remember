@@ -26,3 +26,5 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "jekyll", "~> 3.9"
+
+gem "webrick", "~> 1.7"

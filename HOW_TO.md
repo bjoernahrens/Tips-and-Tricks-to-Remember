@@ -13,13 +13,6 @@ gem update
 gem update --system
 ```
 
-If the version of bundler has changed, you may have to delete the
-`Gemfile.lock` and regenerate it:
-
-```sh
-bundle install
-```
-
 ## Add a new section (folder)
 
 1. Create a new folder starting with an underscore (and with a name that is not
