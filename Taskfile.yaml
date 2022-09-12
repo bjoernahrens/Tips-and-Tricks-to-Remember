@@ -1,0 +1,19 @@
+version: "3"
+
+# includes:
+
+tasks:
+  default:
+    cmds:
+      - cmd: task -l
+    silent: true
+  start:
+    desc: "Start site locally with live reload"
+    cmds:
+      - bundle exec jekyll serve --livereload
+  update:
+    desc: "Update all dependencies"
+    cmds:
+      - gem update
+      - bundle update --bundler
+      - bundle update
