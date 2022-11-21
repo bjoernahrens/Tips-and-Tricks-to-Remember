@@ -1,4 +1,3 @@
-
 mkdir ~/development
 cd ~/development
 git clone https://github.com/flutter/flutter.git -b stable
@@ -13,13 +12,12 @@ alias fpg="flutter pub get"
 
 source ~/.zshrc
 
-if (( $+commands[flutter] ))
-then
-    echo "Flutter successfully installed"
+if type flutter &> /dev/null; then
+  echo "Flutter successfully installed"
 else
-    echo "ERROR: Flutter installation was not successful"
+  echo "ERROR: Flutter installation was not successful"
 fi
-read -p "Press Enter to continue or ctl+c to exit" </dev/tty
+read -p "Press Enter to continue or ctl+c to exit" < /dev/tty
 
 flutter config --no-analytics
 flutter precache

@@ -1,19 +1,21 @@
 ---
-
 ---
 
 # Quicklook Plugins
 
 Sources:
 
-* my own experience
-* [github.com/sindresorhus/quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins) (under Public Domain)
+- my own experience
+- [github.com/sindresorhus/quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins) (under Public Domain)
 
 ---
+
 ## More Info
+
 _also from [github.com/sindresorhus/quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins)_
 
 #### Catalina notes
+
 To get plugins working in Catalina, you will need to remove the quarantine attribute.
 
 Run this to see the attributes:

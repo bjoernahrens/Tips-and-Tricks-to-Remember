@@ -1,83 +1,85 @@
 :root {
-    --link-color: #000000;
-    --link-hover-color: black;
-    --link-visited-color: black;
-    --link-border-color: black;
+  --link-color: #000000;
+  --link-hover-color: black;
+  --link-visited-color: black;
+  --link-border-color: black;
 }
 
 .collection-header {
-    font-family: 'JetBrains Mono', 'SF Mono', 'Courier Prime', 'Courier New', Courier, monospace;
-    font-weight: bolder;
+  font-family: "JetBrains Mono", "SF Mono", "Courier Prime", "Courier New",
+    Courier, monospace;
+  font-weight: bolder;
 }
 
 .collection-content {
-    display: block;
-    font-family: 'JetBrains Mono', 'SF Mono', 'Courier Prime', 'Courier New', Courier, monospace;
+  display: block;
+  font-family: "JetBrains Mono", "SF Mono", "Courier Prime", "Courier New",
+    Courier, monospace;
 }
 
-.collection-content>* {
-    font-size: 1.5rem;
-    display: inline-block;
-    margin-top: 2vh;
+.collection-content > * {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-top: 2vh;
 }
 
-.collection-content>*:first-child {
-    margin-top: 0px;
+.collection-content > *:first-child {
+  margin-top: 0px;
 }
 
-.collection-content>a {
-    text-decoration: none;
-    color: var(--link-color);
-    font-weight: bold;
-    font-size: 1.5em;
-    position: relative;
-    padding: 10px;
+.collection-content > a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: bold;
+  font-size: 1.5em;
+  position: relative;
+  padding: 10px;
 }
 
-.collection-content>a:hover {
-    text-decoration: none;
-    color: var(--link-hover-color)
+.collection-content > a:hover {
+  text-decoration: none;
+  color: var(--link-hover-color);
 }
 
-.collection-content>a:visited {
-    color: var(--link-visited-color)
+.collection-content > a:visited {
+  color: var(--link-visited-color);
 }
 
-.collection-content>a:before,
-.collection-content>a:after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    transition: all 0.3s ease;
+.collection-content > a:before,
+.collection-content > a:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
 }
 
-.collection-content>a:before {
-    top: -2.5%;
-    left: -1%;
-    border-top: 2px solid var(--link-border-color);
-    border-left: 2px solid var(--link-border-color);
+.collection-content > a:before {
+  top: -2.5%;
+  left: -1%;
+  border-top: 2px solid var(--link-border-color);
+  border-left: 2px solid var(--link-border-color);
 }
 
-.collection-content>a:after {
-    bottom: -2.5%;
-    right: -1%;
-    border-bottom: 2px solid var(--link-border-color);
-    border-right: 2px solid var(--link-border-color);
+.collection-content > a:after {
+  bottom: -2.5%;
+  right: -1%;
+  border-bottom: 2px solid var(--link-border-color);
+  border-right: 2px solid var(--link-border-color);
 }
 
-.collection-content>a:hover:before,
-.collection-content>a:hover:after {
-    width: 100%;
-    height: 100%;
-    transition: all 0.3s ease;
+.collection-content > a:hover:before,
+.collection-content > a:hover:after {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --link-color: #dedede;
-        --link-hover-color: #dedede;
-        --link-visited-color: #dedede;
-        --link-border-color: #dedede;
-    }
+  :root {
+    --link-color: #dedede;
+    --link-hover-color: #dedede;
+    --link-visited-color: #dedede;
+    --link-border-color: #dedede;
+  }
 }

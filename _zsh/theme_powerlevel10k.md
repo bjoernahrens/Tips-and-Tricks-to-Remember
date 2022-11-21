@@ -3,7 +3,6 @@ subtitle: Powerlevel10k
 order: 1
 ---
 
-
 > Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 
 https://github.com/romkatv/powerlevel10k

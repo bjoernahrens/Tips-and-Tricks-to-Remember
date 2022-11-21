@@ -31,6 +31,4 @@ Some formulae have dependencies on other formulae, therefore those are installed
 However, when you uninstall a formulae, those dependencies are not automatically cleaned up.  
 To unistall formulae that you didn't directly installed and which are no longer needed by any other formulae, simply run the autoremove command:
 
-``sh
-brew autoremove
-``
+`sh brew autoremove `
