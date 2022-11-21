@@ -1,0 +1,12 @@
+---
+layout: tips
+title: fish
+permalink: /fish/
+---
+
+{% assign tips = site.fish | sort: 'order' %}
+<!-- -->
+{% for tip in tips %}
+<h2 class="subtitle">{{ tip.subtitle }}</h2>
+<div class="entry">{{ tip.content | markdownify }}</div>
+{% endfor %}

@@ -45,6 +45,8 @@ layout: home
     <br/>
     <a href="/web-dev">Web Development</a>
     <br/>
+    <a href="/fish">fish</a>
+    <br/>
     <a href="/zsh">zsh</a>
     <br/>
     <br/>

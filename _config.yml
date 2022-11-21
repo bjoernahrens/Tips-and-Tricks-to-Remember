@@ -1,13 +1,12 @@
 author: Björn
 title: Tips and Tricks to Remember
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   An ever growing collection of very nice, but too easily forgettable tricks,
   collected by me
 baseurl: ""
 twitter_username: B3ARco
 github_username: bjoernahrens
 
-# Build settings
 theme: minima
 plugins:
   - jekyll-feed
@@ -33,24 +32,6 @@ collections:
   - Terminal_Tools
   - watchOS
   - Web_Development
+  - fish
   - zsh
   - Random
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
