@@ -5,8 +5,10 @@ subtitle: venv
 ## Create your virtual Python environment
 
 ```sh
-python -m venv [env/<name>]
+python -m venv env
 ```
+
+Instead of `env`, you can use any name.
 
 ## Automatically loading and unloading using direnv
 

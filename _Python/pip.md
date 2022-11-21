@@ -12,12 +12,13 @@ python -m pip
 pipupgradeall() {
 	pip --version
 	pip list --outdated
-	if [ $(pip list --outdated --format json | jq '. | any(.name | contains ("pip"))') = "true" ]; then
+	outdated=$(pip list --outdated --format=json)
+	if [ $(echo "$outdated" | jq '. | any(.name | contains ("pip"))') = "true" ]; then
 		pip install -U pip
 	fi
-	pip list --outdated --format=json \
-	| jq '.[].name' \
-	| xargs -n1 pip install -U
+	echo "$outdated" |
+		jq '.[].name | select(. != "pip")' |
+		xargs -n1 pip install -U
 }
 ```
 
