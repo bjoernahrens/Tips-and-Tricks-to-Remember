@@ -1,9 +1,16 @@
-author: Björn
+author:
+  name: Björn
 title: Tips and Tricks to Remember
 description: >-
   An ever growing collection of very nice, but too easily forgettable tricks,
   collected by me
 baseurl: ""
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/bjoernahrens" }
+    - { platform: mastodon, user_url: "https://mastodon.social/@b3arco" }
+    - { platform: twitter, user_url: "https://twitter.com/b3arco" }
+
 twitter_username: B3ARco
 github_username: bjoernahrens
 
