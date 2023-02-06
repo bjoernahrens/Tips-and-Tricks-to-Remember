@@ -3,12 +3,20 @@
   --link-hover-color: black;
   --link-visited-color: black;
   --link-border-color: black;
+
+  --body-background: #ffffff;
+  --collection-header: rgb(0, 0, 0);
+}
+
+body {
+  background-color: var(--body-background);
 }
 
 .collection-header {
   font-family: "JetBrains Mono", "SF Mono", "Courier Prime", "Courier New",
     Courier, monospace;
   font-weight: bolder;
+  color: var(--collection-header);
 }
 
 .collection-content {
@@ -51,7 +59,6 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  transition: all 0.3s ease;
 }
 
 .collection-content > a:before {
@@ -68,11 +75,19 @@
   border-right: 2px solid var(--link-border-color);
 }
 
-.collection-content > a:hover:before,
-.collection-content > a:hover:after {
-  width: 100%;
-  height: 100%;
-  transition: all 0.3s ease;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 480px) {
+  .collection-content > a:before,
+  .collection-content > a:after {
+    transition: all 0.3s ease;
+  }
+
+  .collection-content > a:hover:before,
+  .collection-content > a:hover:after {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -81,5 +96,8 @@
     --link-hover-color: #dedede;
     --link-visited-color: #dedede;
     --link-border-color: #dedede;
+
+    --body-background: #05050c;
+    --collection-header: rgb(246, 255, 237);
   }
 }
