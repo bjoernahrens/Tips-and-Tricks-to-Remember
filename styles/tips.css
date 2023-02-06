@@ -1,5 +1,13 @@
 :root {
   --tips-title-color: #000280;
+
+  --body-background: #ffffff;
+  --body-color: #000000;
+}
+
+body {
+  background-color: var(--body-background);
+  color: var(--body-color);
 }
 
 .tip-title {
@@ -20,5 +28,51 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --tips-title-color: #ff335c;
+
+    --body-background: #05050c;
+    --body-color: #ffffff;
+  }
+
+  a:visited {
+    color: rgb(165, 136, 252);
+  }
+
+  a:hover {
+    color: rgb(104, 169, 255);
+  }
+
+  pre {
+    background-color: #334;
+    color: rgb(240, 240, 240);
+  }
+
+  code {
+    background-color: #334;
+    color: rgb(240, 240, 240);
+  }
+
+  .highlight .nn {
+    color: rgb(224, 255, 19);
+  }
+
+  .highlight .nt {
+    color: rgb(104, 169, 255);
+  }
+
+  .highlight .nv {
+    color: rgb(47, 240, 199);
+  }
+
+  .highlight .nb {
+    color: rgb(47, 240, 199);
+  }
+
+  .highlight .no {
+    color: rgb(47, 240, 199);
+  }
+
+  .highlighter-rouge .highlight {
+    background-color: #334;
+    color: rgb(240, 240, 240);
   }
 }
