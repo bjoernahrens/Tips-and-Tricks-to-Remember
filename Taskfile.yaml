@@ -11,6 +11,10 @@ tasks:
     desc: "Start site locally with live reload"
     cmds:
       - bundle exec jekyll serve --livereload
+  build:
+    desc: "Build site (target: _site)"
+    cmds:
+      - bundle exec jekyll build
   update:
     desc: "Update all dependencies"
     cmds:
