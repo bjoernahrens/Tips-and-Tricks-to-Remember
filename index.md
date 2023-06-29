@@ -11,6 +11,8 @@ layout: home
     <br/>
     <a href="/apple-dev">Apple Development</a>
     <br/>
+    <a href="/dotfiles">Dotfiles</a>
+    <br/>
     <a href="/Flutter">Flutter</a>
     <br/>
     <a href="/git">Git</a>
