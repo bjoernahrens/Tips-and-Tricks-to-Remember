@@ -1,3 +1,6 @@
 {
-  "proseWrap": "preserve"
+  "proseWrap": "preserve",
+  "semi": false,
+  "trailingComma": "all",
+  "tabWidth": 2
 }

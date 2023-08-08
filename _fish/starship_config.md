@@ -3,7 +3,6 @@ subtitle: Starship examples
 order: 3
 ---
 
-
 ```toml
 format = """
 [┌$fill]()
