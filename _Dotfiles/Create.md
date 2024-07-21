@@ -45,5 +45,5 @@ Only make your dotfiles public if you are 100% sure that you have pushed or will
 ## Configure to ignore unknown files
 
 ```sh
-dotfiles --local status.showUntrackedFiles no
+dotfiles config --local status.showUntrackedFiles no
 ```
