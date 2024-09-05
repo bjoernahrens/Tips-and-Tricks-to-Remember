@@ -21,8 +21,6 @@ layout: home
     <br/>
     <a href="/homebrew">Homebrew</a>
     <br/>
-    <a href="/iOS-apps">iOS apps</a>
-    <br/>
     <a href="/jekyll">Jekyll</a>
     <br/>
     <a href="/macOS">macOS (General)</a>

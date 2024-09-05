@@ -25,7 +25,6 @@ collections:
   - git
   - gpg
   - Homebrew
-  - iOS-apps
   - Jekyll
   - macOS
   - macOS-apps
